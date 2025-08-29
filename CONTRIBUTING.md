@@ -2,6 +2,8 @@
 
 This repository is a template. The contribution guide below is a generic placeholder. You should adapt it to the specific needs of your project.
 
+> **Note:** The guide below describes the standard `git`-based command-line workflow. For a simpler alternative that uses only the GitHub web interface, please see the [**GitHub Web UI Workflow**](./docs/web-ui-workflow.md) guide.
+
 ---
 
 ## Getting Started

@@ -41,10 +41,14 @@ jobs:
             echo "EOF"
           } >> "$GITHUB_OUTPUT"
 
+      - name: Get Release Title
+        id: get_release_title
+        run: echo "title=$(sed "s/\${TAG}/${{ github.ref_name }}/g" .github/RELEASE_TITLE.txt)" >> $GITHUB_OUTPUT
+
       - name: Create Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
-          title: $(sed "s/\${TAG}/${{ github.ref_name }}/g" .github/RELEASE_TITLE.txt)
+          name: ${{ steps.get_release_title.outputs.title }}
           body: ${{ steps.generate_notes.outputs.FINAL_BODY }}
           tag_name: ${{ github.ref_name }}
           draft: false

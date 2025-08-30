@@ -268,7 +268,7 @@ To learn how to do this, follow the official guide from GitHub:
 
 ### Creating a Navigation Menu
 
-Many themes allow you to create a persistent navigation menu at the top of your site (e.g., "Home | About | Contact"). The implementation details depend on the theme, but it is often configured in the [`_config.yml`](../_config.yml) file.
+Many themes allow you to create a persistent navigation menu at the top of your site (e.g., "Home \\| About \\| Contact"). The implementation details depend on the theme, but it is often configured in the [`_config.yml`](../_config.yml) file.
 
 For example, the popular "Minima" theme looks for a `header_pages` array in your `_config.yml`:
 

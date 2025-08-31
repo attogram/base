@@ -19,3 +19,12 @@ This directory contains the documentation for the `base` project.
 - **[Using Prettier](./prettier.md)**: A guide to installing and using Prettier for code formatting.
 - **[Repository Badges](./badges.md)**: An explanation of how to use and create repository badges.
 - **[Maintaining `base` as a Template Repository](./template-repo.md)**: A guide for maintainers of this template, outlining best practices and administrative steps.
+- **[Versioning and Release Management](./versioning-guide.md)**: A guide to professional release management using Semantic Versioning and GitHub's automated release notes feature.
+- **[Community Building Guide](./community-building-guide.md)**: Best-practice advice on how to foster a healthy, welcoming, and effective community around a new open-source project.
+- **[Project Launch Checklist](./launch-checklist.md)**: A reusable checklist for ensuring a smooth and successful project launch.
+- **[Secrets Management in GitHub Actions](./secrets-management.md)**: A guide on the best practice of using GitHub Actions secrets to manage sensitive credentials.
+- **[Scheduling Workflows with Cron](./workflow-scheduling.md)**: A tutorial on how to use cron scheduling within GitHub Actions to automate recurring tasks.
+- **[Issue Management Guide](./issue-management-guide.md)**: A guide to best practices for triaging bug reports and feature requests using GitHub Issues.
+- **[Documentation Best Practices](./documentation-best-practices.md)**: A tutorial on the art of writing clear and effective documentation.
+- **[Using GitHub Discussions](./using-github-discussions.md)**: A guide on how to leverage GitHub Discussions for community conversations.
+- **[Security Best Practices for Maintainers](./security-best-practices.md)**: A guide covering basic security practices for open-source maintainers.

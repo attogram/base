@@ -1,6 +1,7 @@
 # Using GitHub Discussions
 
-GitHub Discussions is a feature designed to be the community forum for your project, right alongside your code. It provides a dedicated space for conversations, Q&A, and idea sharing, keeping your issue tracker clean and focused on actionable tasks.
+GitHub Discussions is a feature designed to be the community forum for your project, right alongside your code. 
+It provides a dedicated space for conversations, Q&A, and idea sharing, keeping your issue tracker clean and focused on actionable tasks.
 
 ## Issues vs. Discussions: What's the Difference?
 
@@ -26,7 +27,7 @@ By directing non-actionable conversations to Discussions, you prevent your issue
     - **Ideas:** For proposing and debating new features.
     - **Show and Tell:** For community members to share what they've built with your project.
 
-![GitHub Discussions categories](https://docs.github.com/assets/cb-40234/images/help/discussions/categories-in-repo.png)
+See: https://docs.github.com/en/discussions/managing-discussions-for-your-community/managing-categories-for-discussions
 
 ## Best Practices for Maintainers
 

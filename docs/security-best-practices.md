@@ -21,7 +21,7 @@ Modern software projects rely heavily on third-party dependencies. A vulnerabili
 
 You need a clear process for how a security researcher can report a vulnerability to you privately.
 
-- **Create a `SECURITY.md` file:** This file, located in the `.github` directory, should explain how to report a security vulnerability. This repository includes a template [`SECURITY.md`](./.github/SECURITY.md) to get you started.
+- **Create a `SECURITY.md` file:** This file, located in the `.github` directory, should explain how to report a security vulnerability. This repository includes a template [`SECURITY.md`](../.github/SECURITY.md) to get you started.
 - **Use Private Vulnerability Reporting:** GitHub provides a feature for privately reporting vulnerabilities. This allows you to discuss and fix a vulnerability in a temporary private fork before it's announced to the public.
 - **Be Responsive:** When you receive a security report, acknowledge it promptly. Keep the reporter informed of your progress.
 - **Disclose Responsibly:** Once you have a fix, you should disclose the vulnerability. This typically involves:

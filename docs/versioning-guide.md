@@ -35,7 +35,7 @@ This repository is configured with a GitHub Actions workflow that automates the 
     git push origin v1.0.0
     ```
 
-2.  **Workflow Trigger:** Pushing the tag to the repository triggers the [`release-on-tag.yml`](../../.github/workflows/release-on-tag.yml) workflow.
+2.  **Workflow Trigger:** Pushing the tag to the repository triggers the [`.github/release-on-tag.yml`](../.github/workflows/release-on-tag.yml) workflow.
 
 3.  **Automated Release Notes:** The workflow automatically generates release notes based on the titles of the pull requests merged since the last release. It categorizes them into sections like "Features," "Bug Fixes," and "Maintenance."
 
@@ -45,7 +45,7 @@ This repository is configured with a GitHub Actions workflow that automates the 
 
 You can customize the title and body of the release notes by editing the following files:
 
-- [`/.github/RELEASE_TITLE.txt`](../../.github/RELEASE_TITLE.txt): A one-line title for your release.
-- [`/.github/RELEASE_BODY.md`](../../.github/RELEASE_BODY.md): A markdown file where you can add introductory text or other custom content to the release notes.
+- [`.github/RELEASE_TITLE.txt`](../.github/RELEASE_TITLE.txt): A one-line title for your release.
+- [`.github/RELEASE_BODY.md`](../.github/RELEASE_BODY.md): A markdown file where you can add introductory text or other custom content to the release notes.
 
 By combining Semantic Versioning with automated release workflows, you can maintain a professional, consistent, and low-friction release process for your project.

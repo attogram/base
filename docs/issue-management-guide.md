@@ -8,7 +8,7 @@ The first step to effective issue management is to get clear, structured informa
 
 - **What they are:** Pre-populated templates for bug reports and feature requests that prompt the user for specific information.
 - **Why they're useful:** They ensure you get the information you need to act on an issue, such as steps to reproduce a bug or the use case for a new feature.
-- **How to use them:** This repository includes templates in the [`.github/ISSUE_TEMPLATE`](./.github/ISSUE_TEMPLATE) directory. You can customize them to fit your project's needs.
+- **How to use them:** This repository includes templates in the [`.github/ISSUE_TEMPLATE/`](../.github/ISSUE_TEMPLATE/) directory. You can customize them to fit your project's needs.
 
 ## 2. Leverage Labels
 

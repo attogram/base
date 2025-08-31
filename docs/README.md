@@ -7,6 +7,7 @@ This directory contains the documentation for the `base` project.
 - **[GitHub Codespaces](./github-codespaces.md)**: A guide to using GitHub Codespaces for a cloud-based development experience.
 - **[GitHub Pages Site](./github-pages.md)**: Information on how the project's documentation is automatically built and deployed as a website.
 - **[Use Case: A Publishing Platform](./use-case-publishing.md)**: A detailed guide on using this repository as a platform to create and publish your own website.
+- **[Use Case: A Software Project](./use-case-software-project.md)**: A guide to using this repository as a foundation for your own software project.
 - **[Prompting AI Agents](./prompting-ai-agents.md)**: A guide on how to effectively prompt AI agents when working on `base`-based projects.
 - **[Guiding AI with `AGENTS.md`](./agents-md-guide.md)**: An explanation of how to use the `AGENTS.md` file to provide persistent instructions to AI agents.
 - **[The `package.json` files](./package-json-guide.md)**: An explanation of the `package.json` and `package-lock.json` files used for development tooling.

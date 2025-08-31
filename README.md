@@ -7,7 +7,7 @@
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/t/attogram/base?style=flat)](https://github.com/attogram/base/commits/main/)
 [![License](https://img.shields.io/github/license/attogram/base?style=flat)](./LICENSE)
 
-Welcome to [base](./docs/base.md) - Your starting point for new GitHub projects.
+Welcome to [base](./docs/base.md) - Your starting point for new GitHub repos
 
 - [Documentation](./docs/README.md)
 

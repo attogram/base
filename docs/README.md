@@ -12,6 +12,7 @@ This directory contains the documentation for the `base` project.
 - **[Guiding AI with `AGENTS.md`](./agents-md-guide.md)**: An explanation of how to use the `AGENTS.md` file to provide persistent instructions to AI agents.
 - **[The `package.json` files](./package-json-guide.md)**: An explanation of the `package.json` and `package-lock.json` files used for development tooling.
 - **[GitHub Workflows](./github-workflows.md)**: An explanation of the CI/CD workflows for linting, testing, and releasing.
+- **[Manually Formatting Code with the Prettier Workflow](./prettier-workflow.md)**: A guide to using the manually-triggered workflow to format the codebase.
 - **[Licensing Information](./licensing.md)**: Details on the MIT License and how to properly attribute copyright.
 - **[Deploying to Render.com](./render.md)**: Instructions for deploying the project to the Render.com platform.
 - **[Merging `base` Into an Existing Repository](./merging-base.md)**: A guide on how to incorporate `base` into an existing project.

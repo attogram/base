@@ -1,6 +1,6 @@
 # Using GitHub Discussions
 
-GitHub Discussions is a feature designed to be the community forum for your project, right alongside your code. 
+GitHub Discussions is a feature designed to be the community forum for your project, right alongside your code.
 It provides a dedicated space for conversations, Q&A, and idea sharing, keeping your issue tracker clean and focused on actionable tasks.
 
 ## Issues vs. Discussions: What's the Difference?

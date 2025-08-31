@@ -31,7 +31,7 @@ GitHub provides a secure way to store and use secrets within your repository for
 5.  Paste the secret value into the **Value** field.
 6.  Click **Add secret**.
 
-![GitHub new secret page](https://docs.github.com/assets/cb-132240/images/help/settings/actions-secret-new-repo.png)
+![GitHub new secret page](https://docs.github.com/assets/cb-57155/images/help/repository/actions-secrets-tab.png)
 
 ### How to Use a Secret in a Workflow
 

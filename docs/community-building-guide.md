@@ -4,7 +4,7 @@ A thriving open-source project is built on a foundation of a healthy, welcoming,
 
 ## 1. Establish a Code of Conduct
 
-A [Code of Conduct](./CODE_OF_CONDUCT.md) is a document that outlines the expected standards of behavior for all community members. It's a clear statement that your project is a safe and inclusive space.
+A [Code of Conduct](../CODE_OF_CONDUCT.md) is a document that outlines the expected standards of behavior for all community members. It's a clear statement that your project is a safe and inclusive space.
 
 - **Adopt a Standard:** You don't have to write one from scratch. The [Contributor Covenant](https://www.contributor-covenant.org/) is a widely used and respected choice. This repository includes a template to get you started.
 - **Enforce It:** A Code of Conduct is only effective if it's enforced. Be prepared to act on reports of violations to protect your community.

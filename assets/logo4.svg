@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <title>Logo 4: Rocket Ship</title>
+  <path d="M 50 10 L 70 40 H 30 Z" fill="currentColor" />
+  <rect x="40" y="40" width="20" height="40" fill="currentColor" />
+  <path d="M 40 80 L 20 100 L 30 80 Z" fill="currentColor" />
+  <path d="M 60 80 L 80 100 L 70 80 Z" fill="currentColor" />
+</svg>

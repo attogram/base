@@ -8,7 +8,7 @@ The development of this template is guided by a few core principles:
 
 1.  **Code-Independent:** The template should not be tied to a specific programming language. The goal is to provide a solid foundation of repository structure, CI/CD, and best practices that can be adapted to any language or framework.
 
-2.  **Well-Documented:** Every component, workflow, and configuration file is documented in the [`docs`](./) directory. The goal is to make the repository easy to understand and modify.
+2.  **Well-Documented:** Every component, workflow, and configuration file is documented in the [`docs`](./) directory. The goal is to make the repository easy to understand and modify. See the [documentation index](./README.md) for a complete list of documents.
 
 3.  **Guidance Over Prescription:** The template provides sensible defaults and placeholder files that guide the user on how to create their own project-specific content, such as contributing guidelines or a license.
 

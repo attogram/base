@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <title>Logo 3: Stylized B</title>
-  <path d="M 20 20 H 60 A 20 20 0 0 1 60 60 H 20 V 20" fill="currentColor" />
-  <path d="M 20 60 H 80 A 20 20 0 0 1 80 100 H 20 V 60" fill="currentColor" />
-</svg>

@@ -2,30 +2,61 @@
 
 This directory contains the documentation for the `base` project.
 
-- **[The `base` Philosophy](./base.md)**: An overview of the core principles and goals behind this template repository.
-- **[Docker-based Development Environment](./docker.md)**: Instructions on how to use the included Docker setup for a consistent development environment.
-- **[GitHub Codespaces](./github-codespaces.md)**: A guide to using GitHub Codespaces for a cloud-based development experience.
-- **[GitHub Pages Site](./github-pages.md)**: Information on how the project's documentation is automatically built and deployed as a website.
-- **[Use Case: A Publishing Platform](./use-case-publishing.md)**: A detailed guide on using this repository as a platform to create and publish your own website.
-- **[Use Case: A Software Project](./use-case-software-project.md)**: A guide to using this repository as a foundation for your own software project.
-- **[Prompting AI Agents](./prompting-ai-agents.md)**: A guide on how to effectively prompt AI agents when working on `base`-based projects.
-- **[Guiding AI with `AGENTS.md`](./agents-md-guide.md)**: An explanation of how to use the `AGENTS.md` file to provide persistent instructions to AI agents.
-- **[The `package.json` files](./package-json-guide.md)**: An explanation of the `package.json` and `package-lock.json` files used for development tooling.
-- **[GitHub Workflows](./github-workflows.md)**: An explanation of the CI/CD workflows for linting, testing, and releasing.
-- **[Manually Formatting Code with the Prettier Workflow](./prettier-workflow.md)**: A guide to using the manually-triggered workflow to format the codebase.
-- **[Licensing Information](./licensing.md)**: Details on the MIT License and how to properly attribute copyright.
-- **[Deploying to Render.com](./render.md)**: Instructions for deploying the project to the Render.com platform.
-- **[Merging `base` Into an Existing Repository](./merging-base.md)**: A guide on how to incorporate `base` into an existing project.
-- **[Standard Repository Files](./standard-files.md)**: An explanation of the standard configuration files like `.gitignore`, `.editorconfig`, and `.gitattributes`.
-- **[Using Prettier](./prettier.md)**: A guide to installing and using Prettier for code formatting.
-- **[Repository Badges](./badges.md)**: An explanation of how to use and create repository badges.
-- **[Maintaining `base` as a Template Repository](./template-repo.md)**: A guide for maintainers of this template, outlining best practices and administrative steps.
-- **[Versioning and Release Management](./versioning-guide.md)**: A guide to professional release management using Semantic Versioning and GitHub's automated release notes feature.
-- **[Community Building Guide](./community-building-guide.md)**: Best-practice advice on how to foster a healthy, welcoming, and effective community around a new open-source project.
-- **[Project Launch Checklist](./launch-checklist.md)**: A reusable checklist for ensuring a smooth and successful project launch.
-- **[Secrets Management in GitHub Actions](./secrets-management.md)**: A guide on the best practice of using GitHub Actions secrets to manage sensitive credentials.
-- **[Scheduling Workflows with Cron](./workflow-scheduling.md)**: A tutorial on how to use cron scheduling within GitHub Actions to automate recurring tasks.
-- **[Issue Management Guide](./issue-management-guide.md)**: A guide to best practices for triaging bug reports and feature requests using GitHub Issues.
-- **[Documentation Best Practices](./documentation-best-practices.md)**: A tutorial on the art of writing clear and effective documentation.
-- **[Using GitHub Discussions](./using-github-discussions.md)**: A guide on how to leverage GitHub Discussions for community conversations.
-- **[Security Best Practices for Maintainers](./security-best-practices.md)**: A guide covering basic security practices for open-source maintainers.
+- `[base.md](./base.md)` - The `base` Philosophy - An overview of the core principles and goals of this template.
+- `[README.md](./README.md)` - Documentation Index - You are here.
+
+## AI
+
+- `[ai.agents-md.md](./ai.agents-md.md)` - Guiding AI with `AGENTS.md` - Using `AGENTS.md` to provide instructions to AI agents.
+- `[ai.prompting.md](./ai.prompting.md)` - Prompting AI Agents - How to effectively prompt AI agents.
+
+## CI/CD
+
+- `[cicd.secrets-management.md](./cicd.secrets-management.md)` - Secrets Management - Best practices for managing secrets in GitHub Actions.
+- `[cicd.workflow-scheduling.md](./cicd.workflow-scheduling.md)` - Workflow Scheduling - Automating recurring tasks with cron.
+- `[cicd.workflows.md](./cicd.workflows.md)` - GitHub Workflows - Explanation of the CI/CD workflows.
+
+## Community
+
+- `[community.building.md](./community.building.md)` - Community Building Guide - Fostering a healthy and effective community.
+- `[community.discussions.md](./community.discussions.md)` - Using GitHub Discussions - Leveraging Discussions for community conversations.
+- `[community.issue-management.md](./community.issue-management.md)` - Issue Management Guide - Best practices for triaging issues.
+
+## Deployment
+
+- `[deployment.render.md](./deployment.render.md)` - Deploying to Render.com - Instructions for deploying to Render.com.
+
+## Development
+
+- `[development.codespaces.md](./development.codespaces.md)` - GitHub Codespaces - Using Codespaces for cloud-based development.
+- `[development.docker.md](./development.docker.md)` - Docker Environment - Using the included Docker setup.
+- `[development.merging-base.md](./development.merging-base.md)` - Merging `base` - Incorporating `base` into an existing project.
+- `[development.package-json.md](./development.package-json.md)` - `package.json` Guide - Explanation of the `package.json` files.
+- `[development.prettier.md](./development.prettier.md)` - Using Prettier - Guide to installing and using Prettier.
+- `[development.prettier-workflow.md](./development.prettier-workflow.md)` - Prettier Workflow - Manually formatting code.
+
+## Documentation
+
+- `[documentation.best-practices.md](./documentation.best-practices.md)` - Documentation Best Practices - How to write clear and effective documentation.
+
+## Guides
+
+- `[guides.software-project.md](./guides.software-project.md)` - Software Project Guide - Using this repo as a foundation for a software project.
+
+## Project Management
+
+- `[project.badges.md](./project.badges.md)` - Repository Badges - How to use and create repository badges.
+- `[project.launch-checklist.md](./project.launch-checklist.md)` - Launch Checklist - A reusable checklist for project launches.
+- `[project.licensing.md](./project.licensing.md)` - Licensing Info - Details on the MIT License.
+- `[project.security.md](./project.security.md)` - Security Best Practices - Basic security practices for maintainers.
+- `[project.standard-files.md](./project.standard-files.md)` - Standard Files - Explanation of standard repo files.
+- `[project.template-repo.md](./project.template-repo.md)` - Template Repo Guide - Best practices for maintaining this template.
+- `[project.versioning.md](./project.versioning.md)` - Versioning Guide - Professional release management.
+
+## Publishing
+
+- `[publishing.md](./publishing.md)` - Publishing Overview - An overview of the different ways to publish content.
+- `[publishing.markdown.md](./publishing.markdown.md)` - Publishing with Markdown - The simplest way to create pages.
+- `[publishing.html.md](./publishing.html.md)` - Advanced Publishing with HTML - For more control over layout and style.
+- `[publishing.magic-links.md](./publishing.magic-links.md)` - Publishing with Magic Links - Creating links that pre-fill new file content.
+- `[publishing.github-pages.md](./publishing.github-pages.md)` - GitHub Pages - How the underlying publishing system works.

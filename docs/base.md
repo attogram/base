@@ -1,6 +1,6 @@
 # The `base` Philosophy
 
-Welcome to `base`. This repository is designed to be a robust, professional, and well-documented starting point for new software projects.
+Welcome to `base`. This repository is designed to be a robust, professional, and [well-documented](./README.md) starting point for new software and publishing projects.
 
 ## Core Principles
 

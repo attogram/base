@@ -11,4 +11,4 @@ Welcome to [base](./docs/base.md) - Your starting point for new GitHub repos
 
 - [Documentation](./docs/README.md)
 
-- Repo: [https://github.com/attogram/base](https://github.com/attogram/base)
+- Repo: [attogram/base](https://github.com/attogram/base)

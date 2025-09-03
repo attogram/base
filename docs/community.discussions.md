@@ -27,7 +27,7 @@ By directing non-actionable conversations to Discussions, you prevent your issue
     - **Ideas:** For proposing and debating new features.
     - **Show and Tell:** For community members to share what they've built with your project.
 
-See: https://docs.github.com/en/discussions/managing-discussions-for-your-community/managing-categories-for-discussions
+See: [Managing categories for discussions](https://docs.github.com/en/discussions/managing-discussions-for-your-community/managing-categories-for-discussions)
 
 ## Best Practices for Maintainers
 

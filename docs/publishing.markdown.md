@@ -19,21 +19,21 @@ You can change your website's theme with a single line of code.
 
 GitHub Pages officially supports a number of themes. You can preview them by visiting their repositories.
 
-| Theme Name   | How to Use It (`_config.yml`) | Preview Link                                                   |
-| :----------- | :---------------------------------------------- | :------------------------------------------------------------- |
-| Architect    | `theme: jekyll-theme-architect`                 | [View on GitHub](https://github.com/pages-themes/architect)    |
-| Cayman       | `theme: jekyll-theme-cayman`                    | [View on GitHub](https://github.com/pages-themes/cayman)       |
-| Dinky        | `theme: jekyll-theme-dinky`                     | [View on GitHub](https://github.com/pages-themes/dinky)        |
-| Hacker       | `theme: jekyll-theme-hacker`                    | [View on GitHub](https://github.com/pages-themes/hacker)       |
-| Leap Day     | `theme: jekyll-theme-leap-day`                  | [View on GitHub](https://github.com/pages-themes/leap-day)     |
-| Merlot       | `theme: jekyll-theme-merlot`                    | [View on GitHub](https://github.com/pages-themes/merlot)       |
-| Midnight     | `theme: jekyll-theme-midnight`                  | [View on GitHub](https://github.com/pages-themes/midnight)     |
-| Minimal      | `theme: jekyll-theme-minimal`                   | [View on GitHub](https://github.com/pages-themes/minimal)      |
-| Modernist    | `theme: jekyll-theme-modernist`                 | [View on GitHub](https://github.com/pages-themes/modernist)    |
-| Primer       | `theme: jekyll-theme-primer`                    | [View on GitHub](https://github.com/pages-themes/primer)       |
-| Slate        | `theme: jekyll-theme-slate`                     | [View on GitHub](https://github.com/pages-themes/slate)        |
-| Tactile      | `theme: jekyll-theme-tactile`                   | [View on GitHub](https://github.com/pages-themes/tactile)      |
-| Time Machine | `theme: jekyll-theme-time-machine`              | [View on GitHub](https://github.com/pages-themes/time-machine) |
+| Theme Name   | How to Use It (`_config.yml`)      | Preview Link                                                   |
+| :----------- | :--------------------------------- | :------------------------------------------------------------- |
+| Architect    | `theme: jekyll-theme-architect`    | [View on GitHub](https://github.com/pages-themes/architect)    |
+| Cayman       | `theme: jekyll-theme-cayman`       | [View on GitHub](https://github.com/pages-themes/cayman)       |
+| Dinky        | `theme: jekyll-theme-dinky`        | [View on GitHub](https://github.com/pages-themes/dinky)        |
+| Hacker       | `theme: jekyll-theme-hacker`       | [View on GitHub](https://github.com/pages-themes/hacker)       |
+| Leap Day     | `theme: jekyll-theme-leap-day`     | [View on GitHub](https://github.com/pages-themes/leap-day)     |
+| Merlot       | `theme: jekyll-theme-merlot`       | [View on GitHub](https://github.com/pages-themes/merlot)       |
+| Midnight     | `theme: jekyll-theme-midnight`     | [View on GitHub](https://github.com/pages-themes/midnight)     |
+| Minimal      | `theme: jekyll-theme-minimal`      | [View on GitHub](https://github.com/pages-themes/minimal)      |
+| Modernist    | `theme: jekyll-theme-modernist`    | [View on GitHub](https://github.com/pages-themes/modernist)    |
+| Primer       | `theme: jekyll-theme-primer`       | [View on GitHub](https://github.com/pages-themes/primer)       |
+| Slate        | `theme: jekyll-theme-slate`        | [View on GitHub](https://github.com/pages-themes/slate)        |
+| Tactile      | `theme: jekyll-theme-tactile`      | [View on GitHub](https://github.com/pages-themes/tactile)      |
+| Time Machine | `theme: jekyll-theme-time-machine` | [View on GitHub](https://github.com/pages-themes/time-machine) |
 
 ## Part 2: Creating and Editing Content
 

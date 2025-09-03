@@ -38,7 +38,6 @@ This directory contains the documentation for the `base` project.
 ## Documentation
 
 - `[documentation.best-practices.md](./documentation.best-practices.md)` - Documentation Best Practices - How to write clear and effective documentation.
-- `[linking.add-story.md](./linking.add-story.md)` - "Add Your Story" Links - Creating links that pre-fill new file content.
 
 ## Guides
 
@@ -56,6 +55,8 @@ This directory contains the documentation for the `base` project.
 
 ## Publishing
 
-- `[publishing.md](./publishing.md)` - Publishing with Markdown - A simple guide to creating your own website.
-- `[publishing.html.md](./publishing.html.md)` - Advanced Publishing - Using HTML, local previews, and more.
-- `[publishing.github-pages.md](./publishing.github-pages.md)` - GitHub Pages - How documentation is built and deployed.
+- `[publishing.md](./publishing.md)` - Publishing Overview - An overview of the different ways to publish content.
+- `[publishing.markdown.md](./publishing.markdown.md)` - Publishing with Markdown - The simplest way to create pages.
+- `[publishing.html.md](./publishing.html.md)` - Advanced Publishing with HTML - For more control over layout and style.
+- `[publishing.magic-links.md](./publishing.magic-links.md)` - Publishing with Magic Links - Creating links that pre-fill new file content.
+- `[publishing.github-pages.md](./publishing.github-pages.md)` - GitHub Pages - How the underlying publishing system works.

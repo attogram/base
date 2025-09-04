@@ -2,9 +2,13 @@
 
 name: Format Code with Prettier
 
-# This workflow is triggered manually from the Actions tab.
+# This workflow is triggered on pushes to the `main` branch and on pull
+# requests.
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
 
 jobs:
   format:
@@ -42,7 +46,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "style: Format code with Prettier"
-          branch: ${{ github.ref }}
           # The file_pattern is set to all files, ensuring any change made by
           # Prettier is committed.
           file_pattern: "**/*.*"

@@ -1,28 +1,49 @@
 # Use Case: A Starting Point for Your Software Project
 
-This repository is designed to be a robust foundation for a wide variety of software projects. It provides a standardized, best-practice setup that lets you focus on writing code, not on boilerplate and configuration.
+This repository is designed to be a robust foundation for a wide variety of
+software projects.
+It provides a standardized, best-practice setup that lets you focus on
+writing code, not on boilerplate and configuration.
 
-This guide will walk you through how to adapt this template for different kinds of software projects, with examples for common languages and platforms.
+This guide will walk you through how to adapt this template for different
+kinds of software projects, with examples for common languages and platforms.
 
 ## Core Philosophy: A "Batteries-Included" Template
 
-The `base` repository is built on the idea that a good starting point can save hours or even days of setup time. It provides:
+The `base` repository is built on the idea that a good starting point can
+save hours or even days of setup time.
+It provides:
 
-- **A Consistent Development Environment:** Using Docker and GitHub Codespaces, everyone on your team has the same setup, eliminating "it works on my machine" problems.
-- **Automated Workflows:** GitHub Actions are pre-configured for common tasks like linting, testing, and continuous integration.
-- **Standardized Tooling:** Pre-configured tools like Prettier for code formatting ensure consistency across the codebase.
-- **Clear Documentation:** A `docs` directory and a GitHub Pages site are ready for you to document your project.
+- **A Consistent Development Environment:** Using Docker and GitHub Codespaces,
+  everyone on your team has the same setup, eliminating "it works on my
+  machine" problems.
+- **Automated Workflows:** GitHub Actions are pre-configured for common tasks
+  like linting, testing, and continuous integration.
+- **Standardized Tooling:** Pre-configured tools like Prettier for code
+  formatting ensure consistency across the codebase.
+- **Clear Documentation:** A `docs` directory and a GitHub Pages site are
+  ready for you to document your project.
 
 ## Part 1: Structuring Your Project
 
-While this template provides a solid base, you'll need to add your own application code. Here are some recommended structures for different project types.
+While this template provides a solid base, you'll need to add your own
+application code.
+Here are some recommended structures for different project types.
 
 ### General Recommendations
 
-- **Source Code:** Keep your main application code in a dedicated directory. Common choices are `src/`, `app/`, or a directory named after your project.
-- **Tests:** Keep your tests separate from your application code, but in a way that mirrors the source structure. A top-level `tests/` or `spec/` directory is a common pattern.
-- **Scripts:** Place helper scripts, build scripts, or deployment scripts in a `scripts/` directory.
-- **Configuration:** While this template provides global configuration (`.editorconfig`, `.gitignore`), your application will have its own configuration. Store these in a `config/` directory or at the root of the project, depending on the framework.
+- **Source Code:** Keep your main application code in a dedicated directory.
+  Common choices are `src/`, `app/`, or a directory named after your project.
+- **Tests:** Keep your tests separate from your application code, but in a way
+  that mirrors the source structure.
+  A top-level `tests/` or `spec/` directory is a common pattern.
+- **Scripts:** Place helper scripts, build scripts, or deployment scripts in a
+  `scripts/` directory.
+- **Configuration:** While this template provides global configuration
+  (`.editorconfig`, `.gitignore`), your application will have its own
+  configuration.
+  Store these in a `config/` directory or at the root of the project,
+  depending on the framework.
 
 ---
 
@@ -32,7 +53,8 @@ Here's how you can adapt this template for some popular platforms.
 
 ### Example: A Node.js Application
 
-Node.js is a popular choice for building web servers, APIs, and command-line tools.
+Node.js is a popular choice for building web servers, APIs, and command-line
+tools.
 
 **1. Project Structure:**
 
@@ -66,7 +88,8 @@ npm install --save-dev jest supertest
 
 **3. Configuring `package.json`:**
 
-Your `package.json` is the heart of your Node.js project. You'll add scripts for common tasks.
+Your `package.json` is the heart of your Node.js project.
+You'll add scripts for common tasks.
 
 ```json
 "scripts": {
@@ -79,7 +102,8 @@ Your `package.json` is the heart of your Node.js project. You'll add scripts for
 
 **4. Docker Configuration (`docker-compose.yml`):**
 
-To run your Node.js app in the development environment, you can add a service to the `docker-compose.yml` file.
+To run your Node.js app in the development environment, you can add a service
+to the `docker-compose.yml` file.
 
 ```yaml
 services:
@@ -98,7 +122,8 @@ Laravel is a powerful PHP framework for building web applications.
 
 **1. Project Structure:**
 
-Laravel has its own prescribed directory structure, which you can create within this template.
+Laravel has its own prescribed directory structure, which you can create
+within this template.
 
 ```
 .
@@ -130,7 +155,8 @@ php artisan key:generate
 
 **3. Docker Configuration (`docker-compose.yml`):**
 
-A Laravel setup often requires multiple services (PHP, a web server like Nginx, a database like MySQL).
+A Laravel setup often requires multiple services (PHP, a web server like
+Nginx, a database like MySQL).
 
 ```yaml
 services:
@@ -201,7 +227,8 @@ go build -o myapp ./cmd/myapp
 
 **4. Docker Configuration (`Dockerfile`):**
 
-Go applications are often deployed as small, static binaries in a minimal Docker image.
+Go applications are often deployed as small, static binaries in a minimal
+Docker image.
 
 ```dockerfile
 # build stage
@@ -247,11 +274,13 @@ chmod +x scripts/*.sh
 
 **3. Testing Bash Scripts:**
 
-You can use a testing framework like `shellcheck` for static analysis and `bats-core` for unit testing.
+You can use a testing framework like `shellcheck` for static analysis and
+`bats-core` for unit testing.
 
 **`package.json` for Tooling:**
 
-Even for a Bash project, you can use `package.json` to manage your testing tools.
+Even for a Bash project, you can use `package.json` to manage your testing
+tools.
 
 ```json
 "scripts": {
@@ -267,7 +296,8 @@ npm install --save-dev shellcheck bats-core
 
 ### Example: A Plain JavaScript/Frontend Project
 
-For a project without a heavy framework, you can structure it for serving static HTML, CSS, and JS files.
+For a project without a heavy framework, you can structure it for serving
+static HTML, CSS, and JS files.
 
 **1. Project Structure:**
 
@@ -286,7 +316,8 @@ For a project without a heavy framework, you can structure it for serving static
 
 **2. Development Tooling (`package.json`):**
 
-Use `npm` scripts for development tasks like running a local server and building your assets.
+Use `npm` scripts for development tasks like running a local server and
+building your assets.
 
 ```json
 "scripts": {
@@ -302,24 +333,32 @@ npm install --save-dev live-server
 
 **3. GitHub Pages Deployment:**
 
-This setup is perfect for deploying to GitHub Pages. You can configure a GitHub Action to run your `npm run build` command and deploy the contents of the `dist/` folder.
+This setup is perfect for deploying to GitHub Pages.
+You can configure a GitHub Action to run your `npm run build` command and
+deploy the contents of the `dist/` folder.
 
-See the **[Use Case: A Publishing Platform](./use-case-publishing.md)** guide for more details on this approach.
+See the **[Use Case: A Publishing Platform](./use-case-publishing.md)** guide
+for more details on this approach.
 
 ---
 
 ## Part 3: Adapting the CI/CD Workflows
 
-The included GitHub Actions in `.github/workflows/` provide a starting point. You'll likely want to customize them for your project.
+The included GitHub Actions in `.github/workflows/` provide a starting point.
+You'll likely want to customize them for your project.
 
 ### Customizing the `ci.yml` Workflow
 
 The main `ci.yml` workflow is a good place to add steps for:
 
-- **Installing Dependencies:** Add a step to run `npm install`, `composer install`, or `go get`.
-- **Running Tests:** Add a step to execute your test suite (`npm test`, `php artisan test`, `go test`).
-- **Building Your Application:** If your project needs a build step, add it here.
-- **Linting:** The workflow already includes `prettier`. You can add other linters like `eslint` or `shellcheck`.
+- **Installing Dependencies:** Add a step to run `npm install`,
+  `composer install`, or `go get`.
+- **Running Tests:** Add a step to execute your test suite (`npm test`,
+  `php artisan test`, `go test`).
+- **Building Your Application:** If your project needs a build step, add it
+  here.
+- **Linting:** The workflow already includes `prettier`.
+  You can add other linters like `eslint` or `shellcheck`.
 
 **Example: `ci.yml` step for a Node.js project**
 
@@ -333,4 +372,7 @@ The main `ci.yml` workflow is a good place to add steps for:
 
 ## Conclusion
 
-This `base` repository is a powerful and flexible starting point. By understanding its core components and how to adapt them, you can bootstrap your next software project quickly and efficiently, ensuring you start with a solid, maintainable, and well-structured foundation.
+This `base` repository is a powerful and flexible starting point.
+By understanding its core components and how to adapt them, you can bootstrap
+your next software project quickly and efficiently, ensuring you start with a
+solid, maintainable, and well-structured foundation.

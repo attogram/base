@@ -7,6 +7,38 @@ This checklist is designed to help you ensure a smooth and successful launch.
 
 This is the phase where you prepare your project for its public debut.
 
+### Initial Repository Setup
+
+These are the very first steps to take after creating a new repository from the `base` template.
+
+- [ ] **Choose a Repository Name:**
+  - **Max Characters:** 100
+  - **Advice:** Pick a name that is short, memorable, and descriptive of your project. Avoid using spaces; use hyphens (`-`) or underscores (`_`) instead.
+
+- [ ] **Write a Description:**
+  - **Max Characters:** 350
+  - **Advice:** This is your project's "elevator pitch." Briefly explain what your project does and who it's for. This description is shown in search results and on the repository page.
+
+- [ ] **Set Up GitHub Pages Publishing:**
+  1. Go to your repository's **Settings** tab.
+  2. In the left sidebar, click on **Pages**.
+  3. Under "Build and deployment," for the **Source**, select **GitHub Actions**. This repository is pre-configured with a workflow to build and deploy your site.
+
+- [ ] **Publish Test:**
+  1. Make a small, visible edit to the `README.md` file (e.g., add a sentence).
+  2. Commit and push the change to the `main` branch.
+  3. Go to the **Actions** tab of your repository and wait for the `pages` workflow to complete successfully.
+  4. Visit your new GitHub Pages URL (e.g., `https://<your-username>.github.io/<your-repo-name>/`) to confirm that your change is live.
+
+- [ ] **Tag an Initial Release (`v0.0.1`):**
+  - This step confirms that your release workflow is functioning correctly.
+  - Run the following commands in your local terminal:
+    ```bash
+    git tag -a v0.0.1 -m "Initial setup and project scaffolding"
+    git push origin main --tags
+    ```
+  - Go to the **Releases** page on your repository to confirm that a new `v0.0.1` release has been created automatically.
+
 ### Code and Repository
 
 - [ ] Finalize initial feature set for `v1.0.0`.

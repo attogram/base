@@ -30,7 +30,6 @@ This directory contains the documentation for the `base` project.
 
 - [GitHub Codespaces](./development.codespaces.md) - Using Codespaces for cloud-based development.
 - [Docker Environment](./development.docker.md) - Using the included Docker setup.
-- [Merging `base`](./development.merging-base.md) - Incorporating `base` into an existing project.
 - [`package.json` Guide](./development.package-json.md) - Explanation of the `package.json` files.
 - [Using Prettier](./development.prettier.md) - Guide to installing and using Prettier.
 - [Prettier Workflow](./development.prettier-workflow.md) - Manually formatting code.
@@ -42,6 +41,11 @@ This directory contains the documentation for the `base` project.
 ## Guides
 
 - [Software Project Guide](./guides.software-project.md) - Using this repo as a foundation for a software project.
+
+## Updating
+
+- [Adding `base` to an Existing Repo](./updating.adding-base-to-existing-repo.md) - How to merge `base` into a project that was not created from the template.
+- [Syncing When `base` is Updated](./updating.syncing-your-repo-when-base-is-updated.md) - How to get the latest changes from `base` after you have already merged it.
 
 ## Project Management
 

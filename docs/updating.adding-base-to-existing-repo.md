@@ -29,8 +29,8 @@ in your browser.
     - Click the "**<> Code**" button.
     - Go to the "**Codespaces**" tab.
     - Click "**Create codespace on [your-branch-name]**".
-    This will create a new development environment and open it in a new browser
-    tab.
+      This will create a new development environment and open it in a new browser
+      tab.
 
 3.  **Open the Terminal:**
     Once the Codespace has loaded, you will see a code editor and a file
@@ -88,6 +88,7 @@ installed on their local machine.
     First, you need to add the `base` repository as a remote to your local Git
     repository.
     This allows you to fetch its branches and history.
+
     ```bash
     git remote add base https://github.com/attogram/base.git
     ```
@@ -95,6 +96,7 @@ installed on their local machine.
 2.  **Fetch and Merge `base`:**
     Next, fetch the `base` repository's history and merge its `main` branch
     into your project's main branch.
+
     ```bash
     git fetch base
     git merge base/main --allow-unrelated-histories

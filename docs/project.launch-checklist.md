@@ -13,9 +13,9 @@ This is the phase where you prepare your project for its public debut.
 - [ ] Write comprehensive tests and ensure they are all passing.
 - [ ] Set up CI/CD workflows for testing and linting.
 - [ ] Polish the codebase: remove commented-out code, fix typos, and ensure
-  consistent styling.
+      consistent styling.
 - [ ] Run a security audit (e.g., check dependencies for known
-  vulnerabilities).
+      vulnerabilities).
 
 ### Documentation
 
@@ -29,9 +29,9 @@ This is the phase where you prepare your project for its public debut.
 
 - [ ] Prepare a blog post or announcement for the launch.
 - [ ] Identify communities (e.g., Reddit, Hacker News, specific forums) where
-  you will share your project.
+      you will share your project.
 - [ ] Create a project website or landing page (GitHub Pages is a great
-  option).
+      option).
 - [ ] Set up social media accounts if desired.
 
 ## Launch Day
@@ -40,15 +40,15 @@ The day you make your project public.
 
 - [ ] **Publish your code:** Make your GitHub repository public.
 - [ ] **Push the `v1.0.0` tag:** This will trigger your automated release
-  workflow.
+      workflow.
   ```bash
   git tag -a v1.0.0 -m "Initial public release"
   git push origin main --tags
   ```
 - [ ] **Monitor for feedback:** Keep a close eye on GitHub issues, social
-  media, and other channels for questions and bug reports.
+      media, and other channels for questions and bug reports.
 - [ ] **Be responsive:** Engage with early adopters, answer questions, and
-  thank them for their interest.
+      thank them for their interest.
 
 ## Post-Launch
 
@@ -67,7 +67,7 @@ Now it's about building momentum.
 - [ ] Continue to be responsive to issues and pull requests.
 - [ ] Start working on the features planned for `v1.1.0`.
 - [ ] Nurture your community by empowering contributors (see the
-  [Community Building Guide](./community-building-guide.md)).
+      [Community Building Guide](./community-building-guide.md)).
 - [ ] Set up a regular release cadence.
 - [ ] Periodically review and update your documentation.
 

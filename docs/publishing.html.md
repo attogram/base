@@ -24,9 +24,8 @@ A great example is creating a collapsible section using `<details>` and
 <details>
   <summary>Click here to see the details!</summary>
 
-  This content is hidden until you click the summary.
-  You can put any Markdown content in here, including lists, code blocks, or
-  images.
+  This content is hidden until you click the summary. You can put any Markdown
+  content in here, including lists, code blocks, or images.
 </details>
 ```
 

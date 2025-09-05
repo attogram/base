@@ -27,8 +27,8 @@ in your browser.
     - Click the "**<> Code**" button.
     - Go to the "**Codespaces**" tab.
     - Click "**Create codespace on [your-branch-name]**".
-    This will create a new development environment and open it in a new browser
-    tab.
+      This will create a new development environment and open it in a new browser
+      tab.
 
 3.  **Open the Terminal:**
     Once the Codespace has loaded, you will see a code editor and a file

@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [workflows](./workflows.md) > Release on Tag
+
 # Release on Tag Workflow
 
 The "Create Release" workflow, defined in `.github/workflows/release-on-tag.yml`, automates the process of creating a new GitHub release whenever a new tag is pushed to the repository.

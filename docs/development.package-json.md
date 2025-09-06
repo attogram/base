@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [development](./development.md) > package.json Guide
+
 # `package.json` and `package-lock.json`
 
 You may notice `package.json` and `package-lock.json` files in the root of

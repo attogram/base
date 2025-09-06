@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [project](./project.md) > Template Repo Guide
+
 # Maintaining `base` as a Template Repository
 
 This document is for maintainers of the `base` repository.

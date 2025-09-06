@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [publishing](./publishing.md) > Publishing with Markdown
+
 # Publishing with Markdown
 
 This repository is pre-configured to act as a simple, powerful, and free

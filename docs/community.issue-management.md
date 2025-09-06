@@ -1,95 +1,84 @@
+[base](../../README.md) > [docs](../README.md) > [community](./community.md) > Issue Management Guide
+
 # Issue Management Guide
 
-Effective issue management is key to keeping your project organized and your
-community engaged.
-This guide covers best practices for using GitHub Issues, labels, and
-templates to triage bug reports and feature requests.
+Effective issue management is crucial for a well-run open source project.
+A clean and organized issue tracker makes it easier for maintainers to
+prioritize work and for contributors to find ways to help.
+
+This guide provides best practices for triaging and managing issues in your
+repository.
 
 ## 1. Use Issue Templates
 
-The first step to effective issue management is to get clear, structured
-information from contributors.
-GitHub's issue templates are perfect for this.
+Good issues start with good information.
+[Issue templates](./.github/ISSUE_TEMPLATE/) prompt users to provide the
+necessary details when they open an issue, such as:
 
-- **What they are:** Pre-populated templates for bug reports and feature
-  requests that prompt the user for specific information.
-- **Why they're useful:** They ensure you get the information you need to act
-  on an issue, such as steps to reproduce a bug or the use case for a new
-  feature.
-- **How to use them:** This repository includes templates in the
-  [`.github/ISSUE_TEMPLATE/`](../.github/ISSUE_TEMPLATE/) directory.
-  You can customize them to fit your project's needs.
+-   Steps to reproduce the bug.
+-   The expected behavior vs. the actual behavior.
+-   The user's operating system and software versions.
+-   A clear description of the proposed feature.
 
-## 2. Leverage Labels
+This repository includes templates for bug reports and feature requests.
+Encourage your community to use them.
 
-Labels are a powerful tool for categorizing and prioritizing issues.
-A good set of labels makes it easy to see the state of your project at a
-glance.
+## 2. Label Your Issues
 
-### Recommended Label Categories
+Labels are a powerful tool for organizing your issue tracker.
+A good set of labels can help you quickly filter and prioritize issues.
 
-- **Issue Type:**
-  - `bug`: A problem with the existing code.
-  - `feature-request`: A proposal for new functionality.
-  - `documentation`: An issue related to the docs.
-  - `maintenance`: Chores like refactoring or updating dependencies.
+Consider creating labels for:
 
-- **Status:**
-  - `needs-triage`: A new issue that hasn't been reviewed yet.
-  - `confirmed`: A bug report that has been reproduced.
-  - `in-progress`: An issue that is actively being worked on.
-  - `blocked`: An issue that cannot be worked on due to external factors.
+-   **Issue Type:** `bug`, `feature`, `documentation`, `question`
+-   **Priority:** `high-priority`, `medium-priority`, `low-priority`
+-   **Status:** `needs-triage`, `help-wanted`, `good-first-issue`, `in-progress`,
+    `blocked`
+-   **Component:** `api`, `ui`, `database`, `tests`
 
-- **Priority:**
-  - `critical`: Must be addressed immediately (e.g., a security
-    vulnerability).
-  - `high`: Important and should be prioritized.
-  - `medium`: A standard issue.
-  - `low`: A non-urgent issue or nice-to-have feature.
+The `good-first-issue` label is particularly important for attracting new
+contributors.
+Use it to mark issues that are well-defined and don't require deep knowledge
+of the codebase.
 
-- **Contribution Welcome:**
-  - `good-first-issue`: A relatively simple issue that's a great entry point
-    for new contributors.
-  - `help-wanted`: An issue that you'd like the community to help with.
-
-## 3. The Triage Workflow
+## 3. Triage Regularly
 
 Triage is the process of reviewing new issues and preparing them for work.
-A typical workflow looks like this:
+Set aside time to regularly triage incoming issues.
 
-1.  **Review New Issues:** Regularly check for issues that don't have any
-    labels or assignees.
+A typical triage workflow might look like this:
 
-2.  **Ensure Clarity:** If an issue is unclear, ask the author for more
-    information.
+1.  **Read the issue:** Make sure you understand the problem or request.
+2.  **Check for duplicates:** If the issue is a duplicate, close it and link
+    to the original.
+3.  **Ask for more information:** If the issue is unclear or missing details,
+    ask the author to provide more information.
     If they don't respond after a reasonable amount of time, it's okay to
     close the issue.
+4.  **Reproduce bugs:** For bug reports, try to reproduce the issue yourself.
+    If you can't, ask for more help from the author.
+5.  **Apply labels:** Add the appropriate labels for type, priority, and
+    status.
 
-3.  **Reproduce Bugs:** For bug reports, try to reproduce the issue based on
-    the information provided.
-    If you can reproduce it, add a `confirmed` label.
-    If not, ask for more details.
+## 4. Prune Stale Issues
 
-4.  **Apply Labels:** Add the appropriate `type`, `status`, and `priority`
-    labels to the issue.
+It's okay to close issues that are no longer relevant or that you don't plan
+to address.
+A cluttered issue tracker can be intimidating for new contributors and can make
+it hard to see what's important.
 
-5.  **Engage with the Community:**
-    - For valid feature requests, discuss the proposal with the community to
-      gauge interest and gather ideas.
-    - For issues you won't address, explain why and close the issue
-      respectfully.
-    - For issues that are good for new contributors, add a `good-first-issue`
-      label and perhaps a comment with pointers on how to get started.
+Consider using a stale bot (like GitHub's built-in
+[stale action](https://github.com/actions/stale)) to automatically comment on
+and close issues that have been inactive for a long period.
 
-## 4. Use Milestones and Projects
+## 5. Guide Users to Discussions
 
-- **Milestones:** Group issues together for a specific release (e.g.,
-  `v1.1.0`).
-  This helps you track progress towards your next version.
-- **GitHub Projects:** For more complex work, use a project board to visualize
-  and manage the workflow of issues and pull requests, similar to a Kanban
-  board.
+Not every post in your issue tracker needs to be an issue.
+If a user opens an issue that is a question or a broad, open-ended idea,
+politely guide them to use
+[GitHub Discussions](./community.discussions.md) instead.
+This keeps your issue tracker focused on actionable tasks.
 
-By implementing these practices, you can create a clear, organized, and
-efficient issue management process that will benefit both you and your
-contributors.
+By following these best practices, you can maintain a clean, organized, and
+effective issue tracker that serves as the central hub for your project's
+development.

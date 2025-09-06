@@ -1,72 +1,83 @@
+[base](../../README.md) > [docs](../README.md) > [community](./community.md) > Community Building Guide
+
 # Community Building Guide
 
-A thriving open-source project is built on a foundation of a healthy,
-welcoming, and effective community.
-Here are some best practices for fostering such an environment.
+Building a healthy and effective community around your open source project is
+just as important as writing good code.
+A strong community can help with everything from finding bugs and adding new
+features to supporting new users and promoting your project.
 
-## 1. Establish a Code of Conduct
+This guide provides best practices for fostering a positive and productive
+community environment.
 
-A [Code of Conduct](../CODE_OF_CONDUCT.md) is a document that outlines the
-expected standards of behavior for all community members.
-It's a clear statement that your project is a safe and inclusive space.
-
-- **Adopt a Standard:** You don't have to write one from scratch.
-  The [Contributor Covenant](https://www.contributor-covenant.org/) is a
-  widely used and respected choice.
-  This repository includes a template to get you started.
-- **Enforce It:** A Code of Conduct is only effective if it's enforced.
-  Be prepared to act on reports of violations to protect your community.
-
-## 2. Be Welcoming and Responsive
+## 1. Create a Welcoming Environment
 
 First impressions matter.
-How you treat newcomers will determine whether they stick around.
+Newcomers should feel that their contributions are welcome and valued,
+regardless of their skill level.
 
-- **Welcome Contributions:** Use a `CONTRIBUTING.md` file to explain how
-  people can contribute.
-  Thank contributors for their work, even if you don't merge it.
-- **Be Responsive:** Respond to issues and pull requests in a timely manner.
-  If you're busy, a quick "Thanks for the report, I'll look into this next
-  week" is better than silence.
+-   **Code of Conduct:** Adopt and enforce a
+    [Code of Conduct](./CODE_OF_CONDUCT.md).
+    This sets the tone for respectful and inclusive interactions.
+-   **Contribution Guidelines:** Provide a clear
+    [`CONTRIBUTING.md`](./CONTRIBUTING.md) file that explains how to get
+    involved, from reporting bugs to submitting pull requests.
+-   **Be Responsive:** Acknowledge new issues and pull requests promptly, even
+    if it's just to say "thanks for the contribution, I'll review this soon."
+-   **Celebrate Contributions:** Publicly thank contributors for their work.
+    Consider using a tool like the
+    [All Contributors](https://allcontributors.org/) bot to recognize all
+    types of contributions, not just code.
 
-## 3. Provide Clear Communication Channels
+## 2. Provide Clear and Accessible Documentation
 
-Designate specific places for different types of community interaction.
-
-- **GitHub Issues:** Use issues for actionable tasks like bug reports and
-  feature requests.
-  This repository's [issue templates](./.github/ISSUE_TEMPLATE/) help
-  structure this process.
-- **GitHub Discussions:** Enable
-  [GitHub Discussions](https://docs.github.com/en/discussions) for open-ended
-  conversations, Q&A, and sharing ideas.
-  This keeps your issue tracker focused.
-- **Other Channels:** Consider a chat platform like Slack or Discord for more
-  informal community interaction, but be mindful of the moderation overhead.
-
-## 4. Document Everything
-
-Good documentation is a cornerstone of a healthy community.
+Good documentation is the foundation of a healthy community.
 It empowers users to solve their own problems and lowers the barrier to
 contribution.
 
-- **User Guides:** Write clear, concise guides for using your project.
-- **Reference Material:** Provide detailed documentation for APIs,
-  configuration options, and other technical aspects.
-- **Contribution Guidelines:** Your `CONTRIBUTING.md` should clearly explain
-  how to set up a development environment, run tests, and submit changes.
+-   **README:** Your main `README.md` should be a clear and concise entry
+    point to your project.
+-   **Getting Started Guide:** Provide a step-by-step guide for setting up the
+    development environment and running the project for the first time.
+-   **API Reference:** If your project has an API, provide a comprehensive
+    reference that is easy to navigate.
+-   **Keep it Updated:** Ensure your documentation stays in sync with your
+    codebase.
+    Outdated documentation can be a major source of frustration for your
+    community.
 
-## 5. Empower Your Community
+## 3. Establish Clear Communication Channels
 
-As your community grows, look for opportunities to empower trusted members.
+Provide clear and accessible channels for your community to ask questions,
+share ideas, and collaborate.
 
-- **Recognize Contributors:** Acknowledge valuable contributions publicly.
-  This could be through release notes, social media shout-outs, or a
-  contributors list in your README.
-- **Delegate Responsibility:** Invite experienced community members to help
-  triage issues, review pull requests, or moderate discussion channels.
+-   **GitHub Issues:** Use GitHub Issues for bug reports and feature requests.
+-   **GitHub Discussions:** For more open-ended conversations, questions, and
+    community announcements, enable
+    [GitHub Discussions](./community.discussions.md).
+-   **Other Channels:** Depending on your community's preferences, you might
+    also consider a chat platform like Discord or Slack.
+    Whatever you choose, make it clear where users should go for different
+    types of communication.
 
-Building a community takes time and effort, but it's one of the most
-rewarding aspects of maintaining an open-source project.
-By being intentional about creating a positive and productive environment, you
-can build a project that lasts.
+## 4. Be a Good Steward
+
+As a maintainer, your role is to guide the project and its community.
+
+-   **Set a Vision:** Have a clear vision for the future of the project and
+    communicate it to your community.
+    A public roadmap can be a great way to do this.
+-   **Be Open to Feedback:** Be willing to listen to your community's ideas and
+    concerns, even if you don't always agree.
+-   **Delegate:** As your community grows, you won't be able to do everything
+    yourself.
+    Empower trusted community members to help with tasks like triaging issues,
+    reviewing pull requests, and moderating discussions.
+-   **Lead by Example:** The tone and behavior of the maintainers will set the
+    standard for the entire community.
+    Be patient, respectful, and appreciative.
+
+Building a community takes time and effort, but it's one of the most rewarding
+aspects of running an open source project.
+By creating a welcoming, well-documented, and communicative environment, you can
+foster a community that will help your project thrive for years to come.

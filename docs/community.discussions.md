@@ -1,72 +1,78 @@
+[base](../../README.md) > [docs](../README.md) > [community](./community.md) > Using GitHub Discussions
+
 # Using GitHub Discussions
 
-GitHub Discussions is a feature designed to be the community forum for your
-project, right alongside your code.
-It provides a dedicated space for conversations, Q&A, and idea sharing,
-keeping your issue tracker clean and focused on actionable tasks.
+GitHub Discussions is a powerful tool for building a community around your
+project.
+It provides a dedicated space for conversations that don't fit neatly into the
+structured format of GitHub Issues.
+Think of it as a forum or a message board that lives right alongside your code.
 
-## Issues vs. Discussions: What's the Difference?
+This guide explains how to enable and effectively use GitHub Discussions.
 
-Understanding when to use Issues and when to use Discussions is key to
-keeping your project organized.
+## Enabling Discussions
 
-- **GitHub Issues** are for tracking specific, actionable tasks.
-  They have a clear "done" state.
-  - **Use for:** Bug reports, feature requests with a clear scope, specific
-    to-do items.
-  - **Example:** "The login button is broken on Safari."
+To enable Discussions for your repository:
 
-- **GitHub Discussions** are for open-ended conversations.
-  They don't have a "done" state and are about exploration and communication.
-  - **Use for:** Q&A, sharing ideas, general feedback, showing off what you've
-    built.
-  - **Example:** "What do you think about adding a dark mode?" or "How do I
-    connect the app to a different database?"
+1.  Navigate to your repository's main page on GitHub.
+2.  Click on the **Settings** tab.
+3.  Scroll down to the "Features" section.
+4.  Check the box next to **Discussions**.
 
-By directing non-actionable conversations to Discussions, you prevent your
-issue tracker from becoming cluttered with questions and long debates,
-allowing you to focus on the work that needs to be done.
+It may take a few moments, but a new "Discussions" tab will appear in your
+repository's navigation bar.
 
-## How to Enable and Use Discussions
+## When to Use Discussions vs. Issues
 
-1.  **Enable Discussions:** In your repository settings, under the "Features"
-    section, check the box for "Discussions."
+It's important to guide your community on when to use Discussions and when to
+use Issues.
+Here's a common breakdown:
 
-2.  **Configure Categories:** Set up categories to organize your community's
-    conversations.
-    Good starting categories include:
-    - **Announcements:** For maintainers to share project news.
-    - **Q&A:** For users to ask questions.
-      This category has a feature to mark an answer as correct.
-    - **Ideas:** For proposing and debating new features.
-    - **Show and Tell:** For community members to share what they've built
-      with your project.
+**Use GitHub Issues for:**
 
-See:
-[Managing categories for discussions](https://docs.github.com/en/discussions/managing-discussions-for-your-community/managing-categories-for-discussions)
+-   **Bug Reports:** Actionable reports of problems with your code.
+-   **Feature Requests:** Specific requests for new functionality.
+-   **Tasks:** Any item that has a clear "done" state.
 
-## Best Practices for Maintainers
+**Use GitHub Discussions for:**
 
-1.  **Seed the Conversation:** When you first enable Discussions, post a
-    welcome message or an announcement to get things started.
+-   **Q&A:** Questions about how to use your project.
+-   **Ideas:** Open-ended brainstorming and suggestions for new features.
+-   **Show and Tell:** A place for community members to share what they've
+    built with your project.
+-   **Announcements:** A place for maintainers to share news and updates.
 
-2.  **Be Active:** Participate in discussions, answer questions, and encourage
-    community members.
-    Your engagement sets the tone.
+You can create categories in your Discussions to help organize these different
+types of conversations.
 
-3.  **Moderate as Needed:** As with any community forum, be prepared to
-    moderate to ensure conversations remain respectful and productive, in line
-    with your [Code of Conduct](./CODE_OF_CONDUCT.md).
+## Best Practices for Managing Discussions
 
-4.  **Convert Issues to Discussions:** If a user opens an issue that is
-    actually a question or a broad idea, you can convert it to a discussion.
-    This moves the conversation to the right place while preserving the
-    content.
+1.  **Seed Content:** When you first enable Discussions, it will be empty.
+    Create a few posts to get the conversation started.
+    You could post a "Welcome" message, an announcement, or a question to your
+    community.
 
-5.  **Convert Discussions to Issues:** Conversely, if a discussion evolves
-    into a concrete, actionable task (like a well-defined feature request),
-    you can create an issue directly from the discussion to track the work.
+2.  **Promote It:** Let your community know that Discussions is the place to
+    be.
+    Link to it from your `README.md` and `CONTRIBUTING.md` files.
+    If someone opens an issue that is better suited for a discussion, politely
+    guide them to the correct place and, if possible, convert the issue to a
+    discussion.
 
-By embracing GitHub Discussions, you can foster a vibrant community, gather
-valuable feedback, and maintain a clean, organized workflow for managing your
-project's development.
+3.  **Mark Answers:** In Q&A categories, you can mark a comment as the
+    accepted answer.
+    This helps other users with the same question quickly find the solution.
+    Encourage your community to help with this.
+
+4.  **Moderate:** As with any online community, moderation is key.
+    Ensure that conversations are respectful and stay on topic.
+    Make sure your [Code of Conduct](./CODE_OF_CONDUCT.md) is visible and
+    enforced.
+
+5.  **Engage:** Be an active participant in your community's discussions.
+    Answer questions, provide feedback on ideas, and celebrate what your users
+    are creating.
+
+By providing a dedicated and well-managed space for conversation, GitHub
+Discussions can help you build a more engaged, supportive, and collaborative
+community.

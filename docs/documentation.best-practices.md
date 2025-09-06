@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [documentation](./documentation.md) > Documentation Best Practices
+
 # Documentation Best Practices
 
 Good documentation is one of the most important aspects of a successful

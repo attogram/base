@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [project](./project.md) > Licensing Info
+
 # Licensing Information
 
 This repository is distributed under the MIT License, the full text of which

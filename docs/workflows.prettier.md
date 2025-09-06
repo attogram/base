@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [workflows](./workflows.md) > Prettier Workflow
+
 # Prettier Workflow
 
 The Prettier workflow, defined in `.github/workflows/prettier.yml`, automates code formatting for the entire repository.

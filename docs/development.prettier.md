@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [development](./development.md) > Using Prettier
+
 # Prettier for Code Formatting
 
 [Prettier](https://prettier.io/) is an opinionated code formatter that enforces a consistent code style across the entire project. This repository is configured to use Prettier in two ways: automatically via a GitHub workflow and manually for local development.

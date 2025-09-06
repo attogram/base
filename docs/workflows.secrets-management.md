@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [workflows](./workflows.md) > Secrets Management
+
 # Secrets Management in GitHub Actions
 
 Properly managing secrets like API keys, access tokens, and other credentials

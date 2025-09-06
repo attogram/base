@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [workflows](./workflows.md) > GitHub Pages Deployment
+
 # GitHub Pages Deployment Workflow
 
 The GitHub Pages deployment workflow is defined in `.github/workflows/pages.yml`. Its purpose is to build and deploy the repository's content as a GitHub Pages website.

@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [project](./project.md) > Launch Checklist
+
 # Project Launch Checklist
 
 Launching a new open-source project can be a daunting task.

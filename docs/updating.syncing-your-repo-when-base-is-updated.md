@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [updating](./updating.md) > Syncing When base is Updated
+
 # Syncing Your Repo When `base` is Updated
 
 This guide explains how to sync your repository with the latest changes from the

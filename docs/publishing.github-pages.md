@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [publishing](./publishing.md) > GitHub Pages
+
 # GitHub Pages Site
 
 This repository is configured to use [GitHub Pages](https://pages.github.com/)

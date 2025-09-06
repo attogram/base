@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [project](./project.md) > Security Best Practices
+
 # Security Best Practices for Maintainers
 
 As an open-source maintainer, you have a responsibility to ensure your

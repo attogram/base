@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [publishing](./publishing.md) > Advanced Publishing with HTML
+
 # Advanced Publishing: HTML, Previews, and More
 
 This guide covers the more advanced features of the publishing platform,

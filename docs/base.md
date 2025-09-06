@@ -1,36 +1,59 @@
+[base](../README.md) > [docs](./README.md) > base
+
 # The `base` Philosophy
 
-Welcome to `base`.
-This repository is designed to be a robust, professional, and
-[well-documented](./README.md) starting point for new software and publishing
-projects.
+The `base` project is a language-agnostic, professional template for creating
+new software projects. It is designed to be a solid foundation that you can
+build upon, regardless of the programming language or framework you choose.
 
 ## Core Principles
 
-The development of this template is guided by a few core principles:
+1.  **Code-Independent:** The `base` template itself is not tied to any
+    specific programming language. The included Docker environment is based on
+    Ubuntu and NGINX to be as generic as possible. This allows you to bring your
+    own language and tools without having to untangle a complex, pre-existing
+    stack.
 
-1.  **Code-Independent:** The template should not be tied to a specific
-    programming language.
-    The goal is to provide a solid foundation of repository structure, CI/CD,
-    and best practices that can be adapted to any language or framework.
+2.  **Well-Documented:** Every feature, configuration file, and workflow has
+    corresponding documentation in this `docs` directory. The goal is to leave
+    no part of the repository unexplained, making it easy for new contributors
+    to get up to speed and for maintainers to understand all the components.
 
-2.  **Well-Documented:** Every component, workflow, and configuration file is
-    documented in the [`docs`](./) directory.
-    The goal is to make the repository easy to understand and modify.
-    See the [documentation index](./README.md) for a complete list of
-    documents.
+3.  **Guidance over Prescription:** For standard files like `CONTRIBUTING.md` or
+    `LICENSE`, the template provides sensible defaults and guides you on how to
+    customize them, rather than enforcing a single choice. This empowers you to
+    make decisions that are right for your project while still benefiting from
+    a professional starting point.
 
-3.  **Guidance Over Prescription:** The template provides sensible defaults and
-    placeholder files that guide the user on how to create their own
-    project-specific content, such as contributing guidelines or a license.
-
-4.  **Automation:** The template includes automated workflows for common tasks
-    like linting, testing, and creating releases, helping to ensure code
-    quality and streamline the development process.
+4.  **Automation:** The repository leverages GitHub Actions for CI, deployment,
+    and releases to automate common developer tasks. These workflows are
+    designed to be robust and easy to understand, providing a solid CI/CD
+    pipeline out of the box.
 
 ## How to Use This Repository
 
-This repository is intended to be used as a
-[GitHub Template](https://docs.github.com/en/repositories/creating-a-repository-on-github/creating-a-repository-from-a-template).
-Click the "Use this template" button at the top of the repository page to
-create your own new repository with the same structure and files.
+There are two primary ways to use this repository as a starting point for your
+own project:
+
+1.  **As a Template:** The simplest method is to click the "Use this template"
+    button at the top of the repository page on GitHub. This will create a new
+    repository in your account with the same files and directory structure, but
+    without the commit history. This is the recommended approach for new
+-   projects.
+-   [**Adding `base` to an Existing Repo**](./updating.adding-base-to-existing-repo.md)
+-   [**Syncing When `base` is Updated**](./updating.syncing-your-repo-when-base-is-updated.md)
++   projects. See the guides on
++   [adding `base` to an existing repo](./updating.adding-base-to-existing-repo.md)
++   and
++   [syncing when `base` is updated](./updating.syncing-your-repo-when-base-is-updated.md)
++   for more advanced use cases.
+
+2.  **As a Fork:** You can also fork this repository. This creates a copy of the
+    repository in your account that maintains a connection to the original. This
+    is useful if you want to contribute changes back to the `base` project
+    itself, or if you want to be able to easily pull in updates from the original
+    repository.
+
+By providing a clean, well-documented, and automated starting point, the `base`
+project aims to save you time and effort, allowing you to focus on what matters
+most: building your application.

@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [project](./project.md) > Standard Files
+
 # Standard Repository Files
 
 This document explains the purpose of the standard, language-agnostic

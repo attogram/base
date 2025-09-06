@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [publishing](./publishing.md) > Publishing with Magic Links
+
 # Publishing with Magic Links
 
 "Magic Links" are special URLs that can pre-fill a new file in a GitHub

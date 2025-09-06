@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [project](./project.md) > Versioning Guide
+
 # Versioning and Release Management
 
 A well-defined versioning and release strategy is crucial for any professional

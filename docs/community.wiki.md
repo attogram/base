@@ -1,66 +1,66 @@
-# Using the GitHub Wiki
+[base](../../README.md) > [docs](../README.md) > [community](./community.md) > Community Wiki
 
-The GitHub Wiki is a powerful tool for hosting detailed, long-form documentation
-for your project.
-Unlike your repository's `README.md` file, which is meant to be a quick
-introduction, the wiki provides a dedicated space for comprehensive guides,
-tutorials, and reference material.
+# Community Wiki
 
-## `README.md` vs. Wiki: What's the Difference?
+A community wiki is a powerful tool for collaborative documentation.
+It allows any member of your community to contribute their knowledge, creating a
+rich, living resource that evolves over time.
 
-Understanding when to use your `README.md` and when to use the wiki is key to
-keeping your project's documentation organized and accessible.
+This guide explains how to leverage the repository itself to create a simple
+and effective community-managed wiki.
 
-- **`README.md`** is the front door to your project.
-  It should be concise and provide a high-level overview, installation
-  instructions, and a quick start guide.
-  It's the first thing most visitors will see.
+## How it Works
 
-- **The Wiki** is the library for your project.
-  It's the place for "deep dive" content that doesn't fit in the README.
-  - **Use for:** In-depth tutorials, API references, design documents, project
-    history, and FAQs.
-  - **Example:** A detailed guide on "Advanced Configuration Options" or a
-    "Contributor's Guide to the Codebase."
+Instead of using a separate system, this approach uses the `docs/` directory of
+your repository as the wiki.
+This has several advantages:
 
-By moving detailed documentation to the wiki, you keep your `README.md` clean
-and focused, while providing a structured and searchable home for your
-project's knowledge base.
+-   **No Extra Tools:** Everything is managed through the standard GitHub
+    workflow (pull requests, reviews, etc.).
+-   **Version Controlled:** All changes to the wiki are tracked in your Git
+    history.
+-   **Community-Driven:** Anyone can contribute by submitting a pull request.
 
-## How to Use the Wiki
+## Setting Up Your Wiki
 
-1.  **Enable the Wiki:** In your repository settings, under the "Features"
-    section, check the box for "Wiki."
+1.  **Create a Namespace:** As we've done here, you can create a `community.wiki`
+    file to serve as the main entry point for your wiki.
+    This keeps the wiki content organized within its own namespace.
 
-2.  **Create a Home Page:** Every wiki starts with a `Home.md` page.
-    This page should serve as a table of contents, with links to all the other
-    pages in your wiki.
+2.  **Add an Index:** Your main `community.wiki.md` file should act as an index,
+    linking to all the individual wiki pages.
 
-3.  **Add and Edit Pages:** You can add new pages and edit existing ones
-    directly in the GitHub web interface.
-    The wiki uses Markdown, just like the rest of GitHub.
+3.  **Encourage Contributions:** In your `CONTRIBUTING.md` and community
+    channels, let people know that the wiki is open for contributions.
 
-4.  **Link Pages Together:** Create links between your wiki pages to build a
-    cohesive and navigable documentation site.
-    You can link to another wiki page using the syntax `[[Page Name]]`.
+## Example Wiki Structure
 
-## Best Practices for Maintainers
+Your wiki could be organized with a structure like this:
 
-1.  **Keep it Organized:** Use the `Home.md` page as a table of contents.
-    Group related pages together with clear and consistent naming.
+```
+docs/
+├── community.wiki.md         # The main wiki index page
+├── community.wiki.faq.md     # A Frequently Asked Questions page
+├── community.wiki.glossary.md  # A glossary of terms
+└── community.wiki.tutorials/ # A directory for community-submitted tutorials
+    ├── ...
+    └── ...
+```
 
-2.  **Encourage Contributions:** By default, anyone with push access to your
-    repository can edit the wiki.
-    Encourage your community to contribute to the documentation.
+## Contribution Workflow
 
-3.  **Review and Curate:** Periodically review the content of your wiki to
-    ensure it is up-to-date and accurate.
-    Remove outdated information and refactor pages as your project evolves.
+Here's how a community member would add a new page to the wiki:
 
-4.  **Link to the Wiki from your `README.md`:** Add a link to your wiki from
-    your project's `README.md` file so that visitors can easily find your
-    detailed documentation.
+1.  **Fork the repository.**
+2.  **Create a new file** in the `docs/` directory, following the
+    `community.wiki.<topic>.md` naming convention.
+3.  **Write the content** for their new wiki page.
+4.  **Add a link** to their new page in the `docs/community.wiki.md` index file.
+5.  **Submit a pull request** with their changes.
 
-By leveraging the GitHub Wiki, you can build a comprehensive and collaborative
-documentation site that will help your users and contributors get the most out
-of your project.
+Maintainers can then review the contribution, suggest changes, and merge it
+into the project.
+
+By using your own repository as a wiki, you create a low-friction way for your
+community to share their knowledge, building a valuable and lasting resource for
+everyone.

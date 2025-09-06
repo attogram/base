@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [workflows](./workflows.md) > CI Workflow
+
 # CI Workflow
 
 The CI (Continuous Integration) workflow is defined in `.github/workflows/ci.yml`.

@@ -1,87 +1,92 @@
-# Prompting AI Agents for `attogram/base` Projects
+[base](../../README.md) > [docs](../README.md) > [ai](./ai.md) > Prompting AI Agents
 
-When using AI agents to create or update a repository based on
-`attogram/base`, providing a clear, upfront context is the most effective way
-to get the results you want.
-This guide provides two distinct prompt examples to help you steer AI agents in
-the right direction, whether you want to build upon the `base` philosophy or
-intentionally modify it.
+# Prompting AI Agents
 
----
+Effective prompting is the key to getting high-quality results from AI
+assistants like Jules.
+A well-crafted prompt provides the necessary context, constraints, and goals,
+enabling the AI to understand your request and execute it accurately.
 
-## Prompt 1: Using `base` As-Is
+This guide provides best practices and examples for writing effective prompts.
 
-This prompt is ideal when you want to create a new project that adheres to the
-core, language-agnostic philosophy of the `attogram/base` template.
+## Principles of Good Prompting
 
-### Example Prompt: Create a Personal Blog
+1.  **Be Specific and Clear:** Avoid ambiguity.
+    Clearly state what you want the AI to do, what files to modify, and what
+    the expected outcome is.
+    -   **Bad:** "Fix the bug."
+    -   **Good:** "Fix the bug in `src/utils.js` where the `calculateTotal`
+        function is off by one.
+        It should correctly sum the items in the array."
 
-```
-This project builds upon the attogram/base template.
-Please integrate the new website content without removing the core base
-repository files or structure.
+2.  **Provide Context:** Give the AI the information it needs to understand the
+    task.
+    This can include:
+    -   Relevant file paths.
+    -   Error messages or logs.
+    -   The business goal or user story behind the change.
+    -   Links to relevant documentation or examples.
 
-The main homepage for the site is `README.md`, and all new content should be
-linked from there.
-You can create new directories for your content as needed, but please do not
-modify the core `base` files and directories (such as `.github`, `docs`,
-`docker`, etc.).
+3.  **Set Constraints:** Tell the AI what it should *not* do.
+    -   "Do not modify the public API."
+    -   "Do not install any new dependencies."
+    -   "Ensure the solution is compatible with Python 3.8."
 
-Please use the existing Jekyll setup for the site, which builds from the root
-directory.
-Do not install other static site generators like Eleventy.
+4.  **Define the Scope:** Clearly define the boundaries of the task.
+    -   "This task only involves changes to the `docs/` directory."
+    -   "Focus only on refactoring the `UserService`, do not change the
+        `OrderService`."
 
-Finally, please look for and follow any instructions in an `AGENTS.md` file,
-as it may contain project-specific guidelines for AI agents.
-```
+5.  **Reference `AGENTS.md`:** If your repository has an `AGENTS.md` file,
+    remind the AI to read and follow its instructions.
+    -   "Please make sure you have read and understood the guidelines in
+        `AGENTS.md` before starting."
 
----
+## Example Prompts
 
-## Prompt 2: Modifying `base` for a New Technology
+### Example 1: Fixing a Bug
 
-This prompt is for when you want to use `attogram/base` as a starting point
-but intend to introduce a specific programming language or framework.
-This example uses PHP and Laravel.
+**Prompt:**
 
-### Example Prompt: Add a Laravel Backend
+> "Jules, there is a bug in our `api/views.py` file.
+> When a user's subscription is inactive, the `/api/profile` endpoint is
+> throwing a 500 error instead of a 403 Forbidden error.
+>
+> Please fix the logic in the `get_profile` view to correctly handle this case.
+>
+> **Acceptance Criteria:**
+> -   If the user's `subscription.is_active` is `False`, the endpoint must
+>     return a 403 status code.
+> -   The change should only affect the `api/views.py` file.
+> -   Please add a unit test in `tests/test_api.py` to cover this specific
+>     case.
+>
+> Remember to follow the coding standards outlined in `AGENTS.md`."
 
-```
-This project will use `attogram/base` as a foundation, but we will be
-modifying it to support a PHP/Laravel application.
+### Example 2: Adding a New Feature
 
-Here are the requirements:
-1.  **Add PHP and Laravel:** Please modify the Docker environment to include
-    PHP and the necessary extensions for a Laravel application.
-2.  **Install Laravel:** Once the environment is updated, install a fresh copy
-    of the Laravel framework in a `/src` directory at the repository root.
-3.  **Update NGINX:** Configure the NGINX server to point to the `public`
-    directory of the Laravel application.
-4.  **Preserve Core Files:** Do not remove the existing GitHub Actions
-    workflows or the documentation in the `/docs` directory.
-    The goal is to integrate Laravel into the `base` template, not replace it.
-5.  **Check for `AGENTS.md`:** Please look for and follow any instructions in
-    an `AGENTS.md` file, as it may contain project-specific guidelines for AI
-    agents.
-```
+**Prompt:**
 
----
+> "I need to add a new feature to our application.
+> We need a new API endpoint at `/api/users/{id}/export` that exports a user's
+> data as a CSV file.
+>
+> **Requirements:**
+> 1.  Create a new function in `services/user_service.py` called
+>     `export_user_data(user_id)`.
+>     This function should query the database for the user's profile
+>     information.
+> 2.  Create a new view in `api/views.py` that handles the `/api/users/{id}/export`
+>     endpoint.
+>     It should call the `export_user_data` service and return the data as a
+>     CSV file with the appropriate `Content-Disposition` header.
+> 3.  The CSV should contain the following columns: `user_id`, `email`,
+>     `first_name`, `last_name`, `join_date`.
+>
+> Do not add any new dependencies.
+> This is a new feature, so please create a new documentation page for it at
+> `docs/api.user-export.md`."
 
-## Why These Prompts Work
-
-Providing a detailed, upfront prompt like the examples above is crucial for
-several reasons:
-
-- **Sets Clear Expectations:** The AI immediately understands the scope of the
-  project.
-  It knows whether to preserve the `base` philosophy or to modify it, which is
-  the most critical distinction.
-- **Reduces Errors and Rework:** By specifying the technology stack (or lack
-  thereof) and the desired file structure, you prevent the AI from making
-  incorrect assumptions that would need to be corrected later.
-- **Empowers the AI:** A clear prompt gives the AI the constraints it needs to
-  be creative and effective.
-  It can focus on the "how" because you've already defined the "what" and
-  "why."
-- **Faster, Better Results:** Ultimately, a few minutes spent crafting a
-  detailed prompt will save you hours of back-and-forth, leading to a better
-  final product that meets your requirements from the start.
+By following these principles, you can write prompts that are clear,
+context-rich, and actionable, leading to better and more predictable results
+from your AI assistant.

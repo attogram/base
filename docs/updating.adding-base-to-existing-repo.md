@@ -1,3 +1,5 @@
+[base](../../README.md) > [docs](../README.md) > [updating](./updating.md) > Adding base to an Existing Repo
+
 # Merging `base` Into an Existing Repository
 
 This guide explains how to merge the `attogram/base` repository into your

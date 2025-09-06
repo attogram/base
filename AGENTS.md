@@ -89,10 +89,12 @@ repository:
 - **Update Documentation:** If you change a feature, you **must** update its
   corresponding documentation in the [`docs/`](./docs/) directory.
   If you add a new feature, you **must** create a new documentation file for
-  it, following the namespace structure. This means:
+  it, following the namespace and dual-TOC structure. This means:
   1.  Identify the correct namespace for your documentation (e.g., `development`, `workflows`).
   2.  Create a new file named `docs/<namespace>.<your-topic>.md`.
-  3.  Add a link to your new file in the corresponding namespace index file (e.g., `docs/<namespace>.md`).
+  3.  Add a link to your new file in **two** places:
+      - The main Table of Contents in `docs/README.md`, under the appropriate namespace heading.
+      - The namespace-specific index file, `docs/<namespace>.md`.
   4.  If you are creating a new namespace, you must also create a `docs/<namespace>.md` index file and link to it from the main `docs/README.md`.
 - **Verify Your Work:** After creating or modifying a file, use a read-only
   tool like `read_file` or `ls` to confirm your changes were applied

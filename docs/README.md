@@ -3,7 +3,6 @@
 This directory contains the documentation for the `base` project.
 
 - [The `base` Philosophy](./base.md) - An overview of the core principles and goals of this template.
-- [Documentation Index](./README.md) - You are here.
 
 [Guides](#guides) - [Development](#development) - [CI/CD](#cicd-workflows) - [Publishing](#publishing-your-project) - [Updating](#updating) - [Project Management](#project-management) - [Community](#community) - [AI](#ai) - [Documentation](#documentation-best-practices)
 

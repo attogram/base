@@ -3,24 +3,12 @@
 This directory contains the documentation for the `base` project.
 
 - [The `base` Philosophy](./base.md) - An overview of the core principles and goals of this template.
-- [Documentation Index](./README.md) - You are here.
 
-## AI
+[Guides](#guides) - [Development](#development) - [CI/CD](#cicd-workflows) - [Publishing](#publishing-your-project) - [Updating](#updating) - [Project Management](#project-management) - [Community](#community) - [AI](#ai) - [Documentation](#documentation-best-practices)
 
-- [Guiding AI with `AGENTS.md`](./ai.agents-md.md) - Using `AGENTS.md` to provide instructions to AI agents.
-- [Prompting AI Agents](./ai.prompting.md) - How to effectively prompt AI agents.
+## Guides
 
-## CI/CD
-
-- [Secrets Management](./workflows.secrets-management.md) - Best practices for managing secrets in GitHub Actions.
-- [Workflow Scheduling](./workflows.scheduling.md) - Automating recurring tasks with cron.
-- [GitHub Workflows](./workflows.md) - Explanation of the CI/CD workflows.
-
-## Community
-
-- [Community Building Guide](./community.building.md) - Fostering a healthy and effective community.
-- [Using GitHub Discussions](./community.discussions.md) - Leveraging Discussions for community conversations.
-- [Issue Management Guide](./community.issue-management.md) - Best practices for triaging issues.
+- [Software Project Guide](./guides.software-project.md) - Using this repo as a foundation for a software project.
 
 ## Development
 
@@ -30,13 +18,21 @@ This directory contains the documentation for the `base` project.
 - [Using Prettier](./development.prettier.md) - Guide to installing and using Prettier.
 - [Prettier Workflow](./development.prettier-workflow.md) - Manually formatting code.
 
-## Documentation
+## CI/CD Workflows
 
-- [Documentation Best Practices](./documentation.best-practices.md) - How to write clear and effective documentation.
+- [**CI Workflow**](./workflows.ci.md) (`ci.yml`) - Ensures code quality by running linting checks on every push and pull request to the `main` branch.
+- [**GitHub Pages Deployment**](./workflows.pages.md) (`pages.yml`) - Builds and deploys the repository's content as a GitHub Pages website.
+- [**Prettier Workflow**](./workflows.prettier.md) (`prettier.yml`) - Automatically formats the code in the repository using Prettier and commits the changes.
+- [**Release on Tag**](./workflows.release-on-tag.md) (`release-on-tag.yml`) - Automates the creation of GitHub Releases when a new version tag is pushed.
+- [**Secrets Management**](./workflows.secrets-management.md) - Best practices for managing secrets in GitHub Actions.
+- [**Workflow Scheduling**](./workflows.scheduling.md) - Automating recurring tasks with cron.
 
-## Guides
+## Publishing Your Project
 
-- [Software Project Guide](./guides.software-project.md) - Using this repo as a foundation for a software project.
+- **[Publishing with Markdown](./publishing.markdown.md)** - This is the simplest way to get started.
+- **[Advanced Publishing with HTML](./publishing.html.md)** - For those who need more control over their site's layout and appearance.
+- **[Publishing with Magic Links](./publishing.magic-links.md)** - This guide explains a powerful feature for community-driven sites.
+- **[GitHub Pages](./publishing.github-pages.md)** - This document provides more detail on how the underlying GitHub Pages service works.
 
 ## Updating
 
@@ -53,10 +49,17 @@ This directory contains the documentation for the `base` project.
 - [Template Repo Guide](./project.template-repo.md) - Best practices for maintaining this template.
 - [Versioning Guide](./project.versioning.md) - Professional release management.
 
-## Publishing
+## Community
 
-- [Publishing Overview](./publishing.md) - An overview of the different ways to publish content.
-- [Publishing with Markdown](./publishing.markdown.md) - The simplest way to create pages.
-- [Advanced Publishing with HTML](./publishing.html.md) - For more control over layout and style.
-- [Publishing with Magic Links](./publishing.magic-links.md) - Creating links that pre-fill new file content.
-- [GitHub Pages](./publishing.github-pages.md) - How the underlying publishing system works.
+- [Community Building Guide](./community.building.md) - Fostering a healthy and effective community.
+- [Using GitHub Discussions](./community.discussions.md) - Leveraging Discussions for community conversations.
+- [Issue Management Guide](./community.issue-management.md) - Best practices for triaging issues.
+
+## AI
+
+- [Guiding AI with `AGENTS.md`](./ai.agents-md.md) - Using `AGENTS.md` to provide instructions to AI agents.
+- [Prompting AI Agents](./ai.prompting.md) - How to effectively prompt AI agents.
+
+## Documentation Best Practices
+
+- [Documentation Best Practices](./documentation.best-practices.md) - How to write clear and effective documentation.

@@ -1,3 +1,5 @@
+[base](../README.md) > [docs](./README.md) > [community](./community.md) > Using the GitHub Wiki
+
 # Using the GitHub Wiki
 
 The GitHub Wiki is a powerful tool for hosting detailed, long-form documentation

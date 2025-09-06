@@ -1,3 +1,5 @@
+[base](../README.md) > [docs](./README.md) > base
+
 # The `base` Philosophy
 
 Welcome to `base`.

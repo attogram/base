@@ -1,3 +1,5 @@
+[base](../README.md) > [docs](./README.md) > [community](./community.md) > Community Building Guide
+
 # Community Building Guide
 
 A thriving open-source project is built on a foundation of a healthy,

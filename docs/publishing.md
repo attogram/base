@@ -1,3 +1,5 @@
+[base](../README.md) > [docs](./README.md) > publishing
+
 # Publishing Your Project
 
 This repository is pre-configured to act as a simple, powerful, and free

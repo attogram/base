@@ -1,3 +1,5 @@
+[base](../README.md) > [docs](./README.md) > ai
+
 # AI
 
 This section contains documentation related to Artificial Intelligence.

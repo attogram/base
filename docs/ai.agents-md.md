@@ -1,3 +1,5 @@
+[base](../README.md) > [docs](./README.md) > [ai](./ai.md) > Guiding AI with AGENTS.md
+
 # Guiding AI with `AGENTS.md`
 
 The `AGENTS.md` file is a special document within this repository designed to

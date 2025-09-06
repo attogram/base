@@ -1,3 +1,5 @@
+[base](../README.md) > [docs](./README.md) > [community](./community.md) > Issue Management Guide
+
 # Issue Management Guide
 
 Effective issue management is key to keeping your project organized and your

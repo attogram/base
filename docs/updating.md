@@ -1,3 +1,5 @@
+[base](../README.md) > [docs](./README.md) > updating
+
 # Updating
 
 This section contains documentation about updating the repository.

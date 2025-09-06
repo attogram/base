@@ -1,10 +1,8 @@
+[base](../README.md) > docs
+
 # Documentation
 
-This directory contains the documentation for the `base` project.
-
-- [The `base` Philosophy](./base.md) - An overview of the core principles and goals of this template.
-
-[Guides](#guides) - [Development](#development) - [CI/CD](#cicd-workflows) - [Publishing](#publishing-your-project) - [Updating](#updating) - [Project Management](#project-management) - [Community](#community) - [AI](#ai) - [Documentation](#documentation-best-practices)
+[Guides](#guides) - [Development](#development) - [CI/CD Workflows](#cicd-workflows) - [Publishing](#publishing) - [Updating](#updating) - [Project Management](#project-management) - [Community](#community) - [AI](#ai) - [Documentation Best Practices](#documentation-best-practices)
 
 ## Guides
 
@@ -27,12 +25,12 @@ This directory contains the documentation for the `base` project.
 - [**Secrets Management**](./workflows.secrets-management.md) - Best practices for managing secrets in GitHub Actions.
 - [**Workflow Scheduling**](./workflows.scheduling.md) - Automating recurring tasks with cron.
 
-## Publishing Your Project
+## Publishing
 
-- **[Publishing with Markdown](./publishing.markdown.md)** - This is the simplest way to get started.
-- **[Advanced Publishing with HTML](./publishing.html.md)** - For those who need more control over their site's layout and appearance.
-- **[Publishing with Magic Links](./publishing.magic-links.md)** - This guide explains a powerful feature for community-driven sites.
-- **[GitHub Pages](./publishing.github-pages.md)** - This document provides more detail on how the underlying GitHub Pages service works.
+- [Publishing with Markdown](./publishing.markdown.md) - The simplest way to get started with publishing content.
+- [Advanced Publishing with HTML](./publishing.html.md) - For those who need more control over their site's layout and appearance.
+- [Publishing with Magic Links](./publishing.magic-links.md) - A powerful feature for community-driven sites.
+- [GitHub Pages](./publishing.github-pages.md) - More detail on how the underlying GitHub Pages service works.
 
 ## Updating
 

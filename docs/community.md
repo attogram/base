@@ -1,3 +1,5 @@
+[base](../README.md) > [docs](./README.md) > community
+
 # Community
 
 This section contains documentation related to community management.

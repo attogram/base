@@ -1,3 +1,5 @@
+[base](../README.md) > [docs](./README.md) > [ai](./ai.md) > Prompting AI Agents
+
 # Prompting AI Agents for `attogram/base` Projects
 
 When using AI agents to create or update a repository based on

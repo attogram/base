@@ -1,3 +1,5 @@
+[base](../README.md) > [docs](./README.md) > workflows
+
 # CI/CD Workflows
 
 This repository includes several GitHub Actions workflows to automate various tasks. Each workflow is defined in a `.yml` file in the `.github/workflows` directory.

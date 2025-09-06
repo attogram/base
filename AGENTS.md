@@ -88,14 +88,21 @@ repository:
   to the core principles, especially being code-independent.
 - **Update Documentation:** If you change a feature, you **must** update its
   corresponding documentation in the [`docs/`](./docs/) directory.
-  If you add a new feature, you **must** create a new documentation file for
-  it, following the namespace and dual-TOC structure. This means:
-  1.  Identify the correct namespace for your documentation (e.g., `development`, `workflows`).
-  2.  Create a new file named `docs/<namespace>.<your-topic>.md`.
-  3.  Add a link to your new file in **two** places:
-      - The main Table of Contents in `docs/README.md`, under the appropriate namespace heading.
+  All documentation must follow these rules:
+  1.  **Breadcrumb:** The first line of every documentation file must be a
+      clickable breadcrumb trail with correct relative links.
+      - For `docs/README.md`: `[base](../README.md) > docs`
+      - For `docs/ai.md`: `[base](../README.md) > [docs](./README.md) > ai`
+      - For `docs/ai.prompting.md`: `[base](../../README.md) > [docs](../README.md) > [ai](./ai.md) > Prompting AI Agents`
+  2.  **`in-dev` Namespace:** Any documentation that is a work-in-progress or
+      not ready for general use should be placed in the `in-dev` namespace
+      (e.g., `docs/in-dev.my-draft.md`). Files in this namespace are
+      automatically excluded from all Tables of Contents.
+  3.  **Dual TOC Structure:** If you add a new, non-`in-dev` documentation file,
+      you **must** add a link to it in **two** places:
+      - The main Table of Contents in `docs/README.md`, under the appropriate
+        namespace heading.
       - The namespace-specific index file, `docs/<namespace>.md`.
-  4.  If you are creating a new namespace, you must also create a `docs/<namespace>.md` index file and link to it from the main `docs/README.md`.
 - **Verify Your Work:** After creating or modifying a file, use a read-only
   tool like `read_file` or `ls` to confirm your changes were applied
   correctly before marking a step as complete.

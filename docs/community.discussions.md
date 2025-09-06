@@ -1,3 +1,5 @@
+[base](../README.md) > [docs](./README.md) > [community](./community.md) > Using GitHub Discussions
+
 # Using GitHub Discussions
 
 GitHub Discussions is a feature designed to be the community forum for your

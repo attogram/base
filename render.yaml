@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: base-template-app
-    env: docker
-    plan: free
-    healthCheckPath: /

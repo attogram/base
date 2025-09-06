@@ -49,9 +49,10 @@ repository:
   - [`SECURITY.md`](./.github/SECURITY.md): A template for the user's
     security policy.
 
-- **[`docs/`](./docs/)**: Contains all documentation for the project.
-  Each major feature or component has its own corresponding `.md` file in this
-  directory.
+- **[`docs/`](./docs/)**: Contains all documentation for the project. The documentation is organized into namespaces.
+  - **`docs/README.md`**: The main entry point for documentation, which serves as a Table of Contents.
+  - **`docs/<namespace>.md`**: Each namespace has a top-level index file (e.g., `docs/ai.md`) that provides an overview and links to all the sub-pages within that namespace.
+  - **`docs/<namespace>.<topic>.md`**: Individual documentation pages for specific topics within a namespace.
 
 - **[`docker/`](./docker/)**: Contains the development environment.
   - [`Dockerfile`](./docker/Dockerfile): Builds a generic Ubuntu + NGINX
@@ -88,7 +89,11 @@ repository:
 - **Update Documentation:** If you change a feature, you **must** update its
   corresponding documentation in the [`docs/`](./docs/) directory.
   If you add a new feature, you **must** create a new documentation file for
-  it.
+  it, following the namespace structure. This means:
+  1.  Identify the correct namespace for your documentation (e.g., `development`, `workflows`).
+  2.  Create a new file named `docs/<namespace>.<your-topic>.md`.
+  3.  Add a link to your new file in the corresponding namespace index file (e.g., `docs/<namespace>.md`).
+  4.  If you are creating a new namespace, you must also create a `docs/<namespace>.md` index file and link to it from the main `docs/README.md`.
 - **Verify Your Work:** After creating or modifying a file, use a read-only
   tool like `read_file` or `ls` to confirm your changes were applied
   correctly before marking a step as complete.

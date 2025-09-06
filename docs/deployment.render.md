@@ -1,5 +1,8 @@
 # Deploying to Render.com
 
+> [!WARNING]
+> This feature is in development and is not yet ready for use.
+
 This repository is configured for continuous deployment to [Render.com](https://render.com/)
 on their free tier.
 
@@ -27,3 +30,14 @@ To deploy this repository to your own Render account:
 
 Any subsequent pushes to your `main` branch will automatically trigger a new
 deployment on Render.
+
+## `render.yaml`
+
+```yaml
+services:
+  - type: web
+    name: base-template-app
+    env: docker
+    plan: free
+    healthCheckPath: /
+```

@@ -22,10 +22,6 @@ This directory contains the documentation for the `base` project.
 - [Using GitHub Discussions](./community.discussions.md) - Leveraging Discussions for community conversations.
 - [Issue Management Guide](./community.issue-management.md) - Best practices for triaging issues.
 
-## Deployment
-
-- [Deploying to Render.com](./deployment.render.md) - Instructions for deploying to Render.com.
-
 ## Development
 
 - [GitHub Codespaces](./development.codespaces.md) - Using Codespaces for cloud-based development.

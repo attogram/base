@@ -1,33 +1,19 @@
-# GitHub Workflows Documentation
+# CI/CD Workflows
 
-This document explains the purpose and usage of the GitHub Actions workflows
-included in this repository.
+This repository includes several GitHub Actions workflows to automate various tasks. Each workflow is defined in a `.yml` file in the `.github/workflows` directory.
 
-## [`ci.yml`](../.github/workflows/ci.yml)
+Below is an overview of the available workflows. For more detailed information about a specific workflow, please refer to its dedicated documentation page.
 
-- **Purpose:** This workflow runs on every push and pull request to the `main`
-  branch.
-  It uses [Prettier](https://prettier.io/) to check for consistent formatting
-  in Markdown and YAML files, ensuring code quality and readability.
-- **Triggers:** `push`, `pull_request` to `main`.
+## Workflow Index
 
-## [`pages.yml`](../.github/workflows/pages.yml)
+- [**CI Workflow**](./cicd.workflow-ci.md) (`ci.yml`)
+  - Ensures code quality by running linting checks on every push and pull request to the `main` branch.
 
-- **Purpose:** This workflow builds and deploys the project's documentation as
-  a GitHub Pages website.
-  It uses the root [`README.md`](../README.md) as the homepage.
-- **Triggers:** `push` to `main`, `workflow_dispatch`.
+- [**GitHub Pages Deployment**](./cicd.workflow-pages.md) (`pages.yml`)
+  - Builds and deploys the repository's content as a GitHub Pages website.
 
-## [`release-on-tag.yml`](../.github/workflows/release-on-tag.yml)
+- [**Prettier Workflow**](./cicd.workflow-prettier.md) (`prettier.yml`)
+  - Automatically formats the code in the repository using Prettier and commits the changes.
 
-- **Purpose:** This workflow automates the creation of GitHub Releases.
-- **Triggers:** `push` of a new tag matching the pattern `v*.*.*`.
-- **Usage:**
-  1.  Edit the [`.github/RELEASE_TITLE.txt`](../.github/RELEASE_TITLE.txt)
-      and [`.github/RELEASE_BODY.md`](../.github/RELEASE_BODY.md) files to
-      describe the release.
-      You can use the `${TAG}` variable.
-  2.  Commit these changes.
-  3.  Push a new tag (e.g., `git tag v1.0.0 && git push origin v1.0.0`).
-  4.  The workflow will automatically create a new release with your notes, a
-      full changelog, and a link to the diff.
+- [**Release on Tag**](./cicd.workflow-release-on-tag.md) (`release-on-tag.yml`)
+  - Automates the creation of GitHub Releases when a new version tag is pushed.

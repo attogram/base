@@ -12,9 +12,9 @@ This directory contains the documentation for the `base` project.
 
 ## CI/CD
 
-- [Secrets Management](./cicd.secrets-management.md) - Best practices for managing secrets in GitHub Actions.
-- [Workflow Scheduling](./cicd.workflow-scheduling.md) - Automating recurring tasks with cron.
-- [GitHub Workflows](./cicd.workflows.md) - Explanation of the CI/CD workflows.
+- [Secrets Management](./workflows.secrets-management.md) - Best practices for managing secrets in GitHub Actions.
+- [Workflow Scheduling](./workflows.scheduling.md) - Automating recurring tasks with cron.
+- [GitHub Workflows](./workflows.md) - Explanation of the CI/CD workflows.
 
 ## Community
 

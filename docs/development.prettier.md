@@ -4,7 +4,7 @@
 
 ## Automated Formatting with GitHub Actions
 
-This repository includes a [GitHub Actions workflow](./cicd.workflow-prettier.md) that automatically formats all code.
+This repository includes a [GitHub Actions workflow](./workflows.prettier.md) that automatically formats all code.
 
 - **How it works**: The workflow runs on every push to the `main` branch and on every pull request. It runs `prettier --write .` to format all files and commits any changes with the message "style: Format code with Prettier".
 - **What you need to do**: Nothing! The workflow handles everything automatically. If you push code that isn't formatted, the workflow will create a new commit with the required formatting changes.
@@ -37,6 +37,6 @@ You can run Prettier from the command line to format your files.
   ```bash
   npx prettier . --check
   ```
-  The [CI workflow](./cicd.workflow-ci.md) uses this command to validate formatting on pull requests.
+  The [CI workflow](./workflows.ci.md) uses this command to validate formatting on pull requests.
 
 For more detailed information on using Prettier, refer to the [official Prettier documentation](https://prettier.io/docs/en/).

@@ -77,8 +77,6 @@ repository:
     Configuration files for git and code styling.
   - [`docker-compose.yml`](./docker-compose.yml): Used to build and run the
     Docker-based development environment.
-  - [`render.yaml`](./render.yaml): Infrastructure-as-code for deploying the
-    application to Render.com.
   - [`_config.yml`](./_config.yml): Configuration for the Jekyll build for
     GitHub Pages.
 

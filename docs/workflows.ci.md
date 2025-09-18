@@ -19,7 +19,6 @@ This job, named "Lint Code Base", runs on the latest version of Ubuntu. It perfo
 
 1.  **Checkout Code**: Checks out the repository's code.
 2.  **Setup Node.js**: Sets up Node.js version 20.
-3.  **Install Prettier**: Installs the Prettier code formatter globally.
-4.  **Run Prettier**: Runs `prettier --check .` to verify that all files in the repository are formatted correctly according to the Prettier configuration.
+3.  **Check Formatting with Prettier**: Runs `npx prettier --check .` to verify that all files in the repository are formatted correctly according to the Prettier configuration.
 
 The purpose of this workflow is to ensure that all code pushed to the `main` branch or included in a pull request to `main` adheres to the project's coding style, as defined by Prettier. This helps maintain code consistency and quality.

@@ -1,14 +1,10 @@
 # .github/workflows/prettier.yml
 
-name: Format Code with Prettier
+name: Manual Format with Prettier
 
-# This workflow is triggered on pushes to the `main` branch and on pull
-# requests.
+# This workflow is manually triggered from the Actions tab.
 on:
-  push:
-    branches:
-      - main
-  pull_request:
+  workflow_dispatch:
 
 jobs:
   format:

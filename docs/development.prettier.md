@@ -2,16 +2,24 @@
 
 # Prettier for Code Formatting
 
-[Prettier](https://prettier.io/) is an opinionated code formatter that enforces a consistent code style across the entire project. This repository is configured to use Prettier in two ways: automatically via a GitHub workflow and manually for local development.
+[Prettier](https://prettier.io/) is an opinionated code formatter that enforces a consistent code style across the entire project. This repository uses Prettier in two ways:
 
-## Automated Formatting with GitHub Actions
+- A **linting check** that runs automatically on pull requests to verify formatting.
+- A **manual workflow** that can be run to format the entire repository.
 
-This repository includes a [GitHub Actions workflow](./workflows.prettier.md) that automatically formats all code.
+## Linting with GitHub Actions
 
-- **How it works**: The workflow runs on every push to the `main` branch and on every pull request. It runs `prettier --write .` to format all files and commits any changes with the message "style: Format code with Prettier".
-- **What you need to do**: Nothing! The workflow handles everything automatically. If you push code that isn't formatted, the workflow will create a new commit with the required formatting changes.
+This repository includes a [CI workflow](./workflows.ci.md) that automatically checks for formatting issues on every pull request.
 
-This ensures that all code merged into the `main` branch is consistently formatted.
+- **How it works**: The workflow runs `prettier --check .`. If it finds any files that are not correctly formatted, the workflow will fail. This prevents code with incorrect formatting from being merged.
+- **What you need to do**: Make sure to run Prettier on your code before pushing it. If the check fails, you will need to format your code and push the changes.
+
+## Manual Formatting Workflow
+
+For convenience, this repository also includes a [manual formatting workflow](./workflows.prettier.md) that you can trigger from the Actions tab in GitHub.
+
+- **How it works**: This workflow runs `prettier --write .` on all files and commits any changes back to your branch.
+- **When to use it**: You can use this if you forget to format your code locally, or if you want to format a large number of files at once.
 
 ## Manual Formatting
 
@@ -39,6 +47,5 @@ You can run Prettier from the command line to format your files.
   ```bash
   npx prettier . --check
   ```
-  The [CI workflow](./workflows.ci.md) uses this command to validate formatting on pull requests.
 
 For more detailed information on using Prettier, refer to the [official Prettier documentation](https://prettier.io/docs/en/).

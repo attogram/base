@@ -3,6 +3,7 @@
 # Prettier for Code Formatting
 
 [Prettier](https://prettier.io/) is an opinionated code formatter that enforces a consistent code style across the entire project. This repository uses Prettier in two ways:
+
 - A **linting check** that runs automatically on pull requests to verify formatting.
 - A **manual workflow** that can be run to format the entire repository.
 
